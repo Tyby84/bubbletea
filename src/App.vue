@@ -4,11 +4,15 @@
       <nav class="navigation">
          <router-link to="/">Home</router-link> 
          <router-link to="/about">About</router-link>
+         
       </nav>
+      <img src="/images/logo_1920.jpg"  alt="JBubble logo">
     </header>
     <div class="main_section">
     <div class="sidenav">
-        <router-link to="/Teak">Teak</router-link>
+        <router-link to="/Teak"><img src="/images/ananasz_aroma.png" alt=""></router-link>
+        <router-link to="/Teak"><img src="/images/ananasz_aroma.png" alt=""></router-link>
+        <router-link to="/Teak"><img src="/images/ananasz_aroma.png" alt=""></router-link>
         <router-link to="/Teak">Gyumolcs iz</router-link>
         <router-link to="/Teak">Teljes iz</router-link>
     </div> 
@@ -16,25 +20,49 @@
       <router-view></router-view> 
     </div>
     </div>
+   
   </div>
+  
 </template>
+<script>
 
-<style>
+</script>
+
+<style lang="scss">
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+  header {
+    display: flex;
+    width: 100vw;
+    .img_wrap {
+      
+    }
+    img {
+      display: inline-block;
+      width: 158px;
+    }
   }
   .main_section {
     display: flex;
     width: 100vw;
   }
   .navigation {
-    background: url('assets/logo_1920.jpg') no-repeat 90% 38%;
-    max-width: 100vw;
+    display: flex;
     height: 17vh;
-    background-size: 20%;
     background-color: #231F20;
+    align-items: center;
+    width: 90%;
+    a {
+      display: inline-block;
+      margin: 0 auto;
+      text-decoration: none;
+      display: inline-block;
+      color: #fff;
+      
+    }
 }
    
   .sidenav {
@@ -43,6 +71,9 @@
     width: 30%;
     height: 83vh;
     background-color: rgb(139, 139, 139);
+    img {
+      height: 270px;
+    }
   }
   .content {
     background-color: rgb(58, 58, 58);
