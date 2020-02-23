@@ -5,16 +5,16 @@
          <router-link to="/">Home</router-link> 
          <router-link to="/about">Rólunk</router-link>
          <router-link to="/contact">Kapcsolat</router-link>
-         <router-link to="/"><img src="/images/logo_1920.jpg"  alt="JBubble logo"></router-link>
+         <router-link to="/"><img src="images/logo_1920.jpg"  alt="JBubble logo"></router-link>
          
       </nav>
       
     </header>
     <div class="main_section">
     <div class="sidenav">
-        <router-link to="/Teak"><img src="/images/ananasz_aroma.png" alt=""></router-link>
-        <router-link to="/Teak"><img src="/images/ananasz_aroma.png" alt=""></router-link>
-        <router-link to="/Teak"><img src="/images/ananasz_aroma.png" alt=""></router-link>
+        <router-link to="/Teak"><img src="images/ananasz_aroma.png" alt=""></router-link>
+        <router-link to="/Teak"><img src="images/ananasz_aroma.png" alt=""></router-link>
+        <router-link to="/Teak"><img src="images/ananasz_aroma.png" alt=""></router-link>
         <!-- <router-link to="/Teak">Gyumolcs iz</router-link> -->
         <!-- <router-link to="/Teak">Teljes iz</router-link> -->
     </div> 
