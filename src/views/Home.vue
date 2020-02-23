@@ -1,7 +1,8 @@
 <template>
-  <div class="home">
+  <div class="page">
 
     <h3>Kezdo page</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloremque provident ipsam cumque fugit ex illo modi natus, perferendis eaque ab vero aliquam optio eum minima neque, excepturi, eligendi nesciunt!</p>
 
    <!--  <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
