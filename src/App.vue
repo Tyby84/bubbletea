@@ -1,14 +1,18 @@
 <template>
   <div id="app">
     <header>
-      <nav class="navigation">
+     
+			<div class="menu-bar menu-bar-animated" @click="clicked = !clicked">
+				<div class="menu-bar--bar"></div>
+			</div>
+      <nav class="navigation" :class="{show : clicked}">
          <router-link to="/">Home</router-link> 
          <router-link to="/about">Rólunk</router-link>
          <router-link to="/contact">Kapcsolat</router-link>
-         <router-link to="/"><img src="images/logo_1920.jpg"  alt="JBubble logo"></router-link>
          
       </nav>
-      
+               <router-link to="/"><img src="images/logo_1920.jpg"  alt="JBubble logo"></router-link>
+
     </header>
     <div class="main_section">
     <div class="sidenav">
@@ -27,7 +31,14 @@
   
 </template>
 <script>
-
+  export default {
+    data: function() {
+      return {
+        clicked: false
+      }
+      
+    }
+  }
 </script>
 
 <style lang="scss">
@@ -55,12 +66,16 @@
   
 }
   header {
+    display: flex;
+    background-color: #231F20;
+    justify-content: space-between;
+    height: 100px;
     img {
     display: inline-block;
     width: 158px;
     margin-right: 48px;
     transform: scale(1.4);
-    margin-top: 16px;
+    height: 100px;
     }
   }
   .main_section {
@@ -69,23 +84,29 @@
     
   }
   .navigation {
+    opacity: 0;
     display: flex;
-    height: 94px;
-    background-color: #231F20;
+    flex-direction: column;
+    border-radius: 22px 0px 22px 0px;
+    background-color: rgba(22, 68, 167, 0.8);
     align-items: center;
-    // width: calc(100vw - 158px);
-    width: 100vw;
-    overflow:hidden;
+    width: 150px;
+     margin: 31px 0px 0px 60px;
+    z-index: 8; 
+    height: fit-content;
+    padding: 5px 20px 50px 20px;  
     a {
       display: inline-block;
-      margin: 0 auto;
+      margin: 0px auto 5px auto;
       text-decoration: none;
       color: #fff;
       font-size: 19px;
       letter-spacing: 2px;
     }
 }
-   
+   .show {
+      opacity: 1;
+    }
   .sidenav {
     display: flex;
     flex-direction: column;
@@ -106,6 +127,7 @@
     line-height: 1.5;
     color: #fff;
     font-size: 20px;
+    z-index: 99;
   }
   .page {
     h3 {
@@ -120,4 +142,74 @@
       margin: 10px auto;
     }
   }
+  .menu-bar {
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		top: 2rem;
+		left: 2rem;
+		z-index: 20;
+		cursor: pointer;
+		transition: transform .3s ease-out;
+		animation: barUp 2s ease-out 1s;
+		animation-fill-mode: backwards;
+		 
+	&:hover {
+   
+	}
+		
+		&::before {
+			content: "";
+			position: absolute;
+			top:8px;
+			left:0;
+			width: 20px;
+			height: 3px;
+			background-color: #fff;
+			transition: all .3s ease-out;
+			
+		}
+		&--bar{
+			
+			position: absolute;
+			top:0px;
+			left:0;
+			width: 20px;
+			height: 3px;
+			background-color: #fff;
+			transition: all .3s ease-out;
+	}
+			
+			&::after {
+			content: "";
+			position: absolute;
+			top:16px;
+			left:0;
+			width: 20px;
+			height: 3px;
+			background-color: #fff;
+				transition: all .3s ease-out;
+			}
+			
+		
+	&--close {
+		&::before {
+			
+				transform: rotate(-45deg);
+				top: 5px;
+				background-color: #fff;
+			}
+		.menu-bar--bar {
+			
+			transform: rotate(45deg);
+			top: 5px;
+			background-color: #fff;
+		}
+		&::after {
+				opacity: 0;
+			}
+		
+	}
+	
+	}
 </style>
