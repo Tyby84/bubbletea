@@ -9,7 +9,6 @@
          <router-link to="/">Home</router-link> 
          <router-link to="/about">Rólunk</router-link>
          <router-link to="/contact">Kapcsolat</router-link>
-         
       </nav>
                <router-link to="/"><img src="images/logo_1920.jpg"  alt="JBubble logo"></router-link>
 
@@ -87,21 +86,27 @@
     opacity: 0;
     display: flex;
     flex-direction: column;
-    border-radius: 22px 0px 22px 0px;
+    border-radius: 20px;
     background-color: rgba(22, 68, 167, 0.8);
     align-items: center;
     width: 150px;
      margin: 31px 0px 0px 60px;
     z-index: 8; 
     height: fit-content;
-    padding: 5px 20px 50px 20px;  
+    padding: 5px 30px 50px 30px;
+    transition: all .5s ease-in-out;  
     a {
       display: inline-block;
-      margin: 0px auto 5px auto;
+      margin: 10px auto 20px auto;
       text-decoration: none;
-      color: #fff;
+      color: rgb(233, 233, 233);
       font-size: 19px;
       letter-spacing: 2px;
+      &:hover {
+        border-bottom: 1px solid #fff;
+        margin-bottom: 19px;
+        color: #fff;
+      }
     }
 }
    .show {
