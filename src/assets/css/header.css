@@ -59,7 +59,7 @@ header .red {
         -ms-flex-direction: row;
             flex-direction: row;
     background: none;
-    margin: 10px 0px 0px 60px;
+    margin: 0;
   }
 }
 
@@ -203,8 +203,32 @@ body, html {
   background-color: #8b8b8b;
 }
 
-.sidenav img {
-  height: 185px;
+.sidenav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: #d32121;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.sidenav div:first-of-type {
+  margin-top: 20px;
+}
+
+.sidenav div a {
+  text-decoration: none;
+  font-size: 19px;
+  color: #eee;
 }
 
 .content {
@@ -215,7 +239,6 @@ body, html {
   width: 70%;
   height: 100vh;
   overflow-y: scroll !important;
-  padding: 20px;
   line-height: 1.5;
   color: #fff;
   font-size: 20px;

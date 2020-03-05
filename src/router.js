@@ -4,6 +4,8 @@ import Home from './views/Home.vue';
 import About from './views/About.vue';
 import Teak from './views/Teak.vue';
 import Contact from './views/Contact.vue';
+import Gyumaroma from './views/Gyum_aroma.vue';
+import Tejaroma from './views/Tej_aroma.vue';
 
 
 Vue.use(Router)
@@ -31,6 +33,15 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       component: Contact
+    },
+    {
+      path: '/gyumolcsaroma',
+      name: 'gyumaroma',
+      component: Gyumaroma
+    },
+    {
+      path: '/tejesaroma',
+      component: Tejaroma
     }
   ]
 });

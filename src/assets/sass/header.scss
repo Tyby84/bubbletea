@@ -35,7 +35,7 @@ header {
     @media screen and (min-width:768px){
         flex-direction: row;
         background: none;
-        margin: 10px 0px 0px 60px;
+        margin: 0;
     }
     a {
       display: inline-block;
@@ -150,7 +150,6 @@ header {
     width: 100vw;
     
   }
-  
    .show {
       opacity: 1;
     }
@@ -160,8 +159,24 @@ header {
     width: 30%;
     align-items: center;
     background-color: rgb(139, 139, 139);
-    img {
-      height: 185px;
+    div {
+      &:first-of-type {
+        margin-top: 20px;
+      }
+      display: flex;
+      width: 100px;
+      height: 100px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: #d32121;
+      margin-bottom: 10px;
+      border-radius: 50%;
+      a {
+        text-decoration: none;
+        font-size: 19px;
+        color: #eee;
+      }
     }
   }
   .content {
@@ -170,7 +185,6 @@ header {
     width: 70%;
     height: 100vh;
     overflow-y: scroll !important;
-    padding: 20px;
     line-height: 1.5;
     color: #fff;
     font-size: 20px;

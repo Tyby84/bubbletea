@@ -16,11 +16,12 @@
     </header>
     <div class="main_section">
     <div class="sidenav">
-        <router-link to="/Teak"><img src="images/ananasz_aroma.png" alt=""></router-link>
-        <router-link to="/Teak"><img src="images/ananasz_aroma.png" alt=""></router-link>
-        <router-link to="/Teak"><img src="images/ananasz_aroma.png" alt=""></router-link>
-        <!-- <router-link to="/Teak">Gyumolcs iz</router-link> -->
-        <!-- <router-link to="/Teak">Teljes iz</router-link> -->
+        
+     <div><router-link to="/Teak">Teák</router-link></div>
+     <div><router-link to="/gyumolcsaroma">Gyümölcs aroma</router-link></div>
+     <div><router-link to="/tejesaroma">Tejes aroma</router-link></div>
+     <div><router-link to="/Teak">Gyümölcs buborékok</router-link></div>
+     <div><router-link to="/Teak">Zselék</router-link></div>
     </div> 
     <div class="content">
       <router-view></router-view> 
