@@ -1,14 +1,39 @@
 <template>
   <div class="page">
     <h3>Tej aroma oldal</h3>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente earum dignissimos distinctio adipisci, odio, illum, aperiam ipsum aspernatur officiis assumenda sint doloremque nisi. Dolore ad eligendi ullam sapiente labore praesentium.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente earum dignissimos distinctio adipisci, odio, illum, aperiam ipsum aspernatur officiis assumenda sint doloremque nisi. Dolore ad eligendi ullam sapiente labore praesentium.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente earum dignissimos distinctio adipisci, odio, illum, aperiam ipsum aspernatur officiis assumenda sint doloremque nisi. Dolore ad eligendi ullam sapiente labore praesentium.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente earum dignissimos distinctio adipisci, odio, illum, aperiam ipsum aspernatur officiis assumenda sint doloremque nisi. Dolore ad eligendi ullam sapiente labore praesentium.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente earum dignissimos distinctio adipisci, odio, illum, aperiam ipsum aspernatur officiis assumenda sint doloremque nisi. Dolore ad eligendi ullam sapiente labore praesentium.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente earum dignissimos distinctio adipisci, odio, illum, aperiam ipsum aspernatur officiis assumenda sint doloremque nisi. Dolore ad eligendi ullam sapiente labore praesentium.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente earum dignissimos distinctio adipisci, odio, illum, aperiam ipsum aspernatur officiis assumenda sint doloremque nisi. Dolore ad eligendi ullam sapiente labore praesentium.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente earum dignissimos distinctio adipisci, odio, illum, aperiam ipsum aspernatur officiis assumenda sint doloremque nisi. Dolore ad eligendi ullam sapiente labore praesentium.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente earum dignissimos distinctio adipisci, odio, illum, aperiam ipsum aspernatur officiis assumenda sint doloremque nisi. Dolore ad eligendi ullam sapiente labore praesentium.</p>
-</div>
+    <div class="aromak">
+      <img  class="aroma" src="images/tejes/Áfonya GYÜMÖLCS  Aroma-01.png">
+      <img  class="aroma" src="images/tejes/Áfonya GYÜMÖLCS  Aroma-01.png">
+      <img  class="aroma" src="images/tejes/Áfonya GYÜMÖLCS  Aroma-01.png">
+      <img  class="aroma" src="images/tejes/Áfonya GYÜMÖLCS  Aroma-01.png">
+      <img  class="aroma" src="images/tejes/Áfonya GYÜMÖLCS  Aroma-01.png">
+      <img  class="aroma" src="images/tejes/Áfonya GYÜMÖLCS  Aroma-01.png">
+      <img  class="aroma" src="images/tejes/Áfonya GYÜMÖLCS  Aroma-01.png">
+      <img  class="aroma" src="images/tejes/Áfonya GYÜMÖLCS  Aroma-01.png">
+      <img  class="aroma" src="images/tejes/Áfonya GYÜMÖLCS  Aroma-01.png">
+      <img  class="aroma" src="images/tejes/Áfonya GYÜMÖLCS  Aroma-01.png">
+      <img  class="aroma" src="images/tejes/Áfonya GYÜMÖLCS  Aroma-01.png">
+      <img  class="aroma" src="images/tejes/Áfonya GYÜMÖLCS  Aroma-01.png">
+      <img  class="aroma" src="images/tejes/Áfonya GYÜMÖLCS  Aroma-01.png">
+      <img  class="aroma" src="images/tejes/Áfonya GYÜMÖLCS  Aroma-01.png">
+      <img  class="aroma" src="images/tejes/Áfonya GYÜMÖLCS  Aroma-01.png">
+      <img  class="aroma" src="images/tejes/Áfonya GYÜMÖLCS  Aroma-01.png">
+    </div>
+    
+    </div>
 </template>
+<script>
+export default {
+  
+}
+</script>
+<style lang="scss">
+  .aromak {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  .aroma {
+    width: 300px;
+  }
+  }
+</style>
