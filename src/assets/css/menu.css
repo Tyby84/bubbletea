@@ -1,0 +1,121 @@
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 20px;
+  background-color: rgba(22, 68, 167, 0.8);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+  margin: 31px 0px 0px 60px;
+  z-index: 8;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 5px 30px 50px 30px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background: none;
+    margin: 0;
+  }
+}
+
+.navigation a {
+  display: inline-block;
+  margin: 10px 30px 20px 30px;
+  text-decoration: none;
+  color: #e9e9e9;
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+
+.navigation a:hover {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 19px;
+  color: #fff;
+}
+
+.menu-bar {
+  display: none;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  z-index: 20;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .3s ease-out;
+  transition: -webkit-transform .3s ease-out;
+  transition: transform .3s ease-out;
+  transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+  -webkit-animation: barUp 2s ease-out 1s;
+          animation: barUp 2s ease-out 1s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.menu-bar::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 20px;
+  height: 3px;
+  background-color: #fff;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.menu-bar--bar {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 20px;
+  height: 3px;
+  background-color: #fff;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.menu-bar::after {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 0;
+  width: 20px;
+  height: 3px;
+  background-color: #fff;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.menu-bar--close::before {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 5px;
+  background-color: #fff;
+}
+
+.menu-bar--close .menu-bar--bar {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 5px;
+  background-color: #fff;
+}
+
+.menu-bar--close::after {
+  opacity: 0;
+}

@@ -27,7 +27,10 @@
       <router-view></router-view> 
     </div>
     </div>
-   
+   <footer>
+     <img src="images/PNG/facebook.png" />
+     <img src="images/PNG/instagram.png" />
+   </footer>
   </div>
   
 </template>
@@ -43,6 +46,10 @@
 </script>
 
 <style>
+@import './assets/css/base.css';
 @import './assets/css/header.css';
+@import './assets/css/main.css';
+@import './assets/css/footer.css';
+@import './assets/css/menu.css';
 
 </style>
