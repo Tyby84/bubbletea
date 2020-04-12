@@ -28,8 +28,13 @@
     </div>
     </div>
    <footer>
+     <div class="social_icons">
      <img src="images/PNG/facebook.png" />
+     </div>
+     <p>Bubble Tea | 2020</p>
+     <div>
      <img src="images/PNG/instagram.png" />
+     </div>
    </footer>
   </div>
   
