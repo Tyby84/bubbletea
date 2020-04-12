@@ -1,3 +1,4 @@
+@import 'mixin.scss';
 header {
     display: flex;
     background-color: #231F20;
@@ -10,18 +11,27 @@ header {
     margin-top: 17px;
     transform: scale(1.4);
     height: 100px;
+    @include tablet {
+      position: absolute;
+      top: 0;
+      right: 0;
     }
-    .red {
-      height: 19px;
-    width: 95vw;
-    background-color: #EC1A23;
-    z-index: 33;
-    margin-top: 50px;
-    margin-left: -238px;
     }
 }
 
-
+.red {
+  height: 19px;
+  width: 100vw;
+  background-color: #EC1A23;
+  //z-index: 33;
+  position: absolute;
+  top: 50px;
+  //margin-top: 50px;
+  //margin-left: -1246px;
+  @include tablet {
+    display: none;
+  }
+  }
 
   
   

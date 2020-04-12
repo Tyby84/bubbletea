@@ -1,3 +1,4 @@
+@import 'mixin.scss';
 #app {
     height: 100vh;
 }
@@ -6,6 +7,9 @@
     display: flex;
     width: 100vw;
     height: calc(100vh - 180px);
+    @include mobile {
+      flex-direction: column;
+    }
   }
    
   .sidenav {
@@ -21,6 +25,9 @@
     div {
       &:first-of-type {
         margin-top: 20px;
+        @include mobile {
+          margin-top: 0;
+        }
       }
       display: flex;
       align-items: center;
@@ -34,7 +41,18 @@
         font-size: 19px;
         color: #eee;
         padding: 20px;
+        @include mobile {
+          width: 155px;
+          padding: 15px;
+        }
       }
+    }
+    @include mobile {
+      width: 100vw;
+      z-index: 9;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
     }
   }
   .content {
@@ -47,6 +65,9 @@
     color: #fff;
     font-size: 20px;
     z-index: 99;
+    @include mobile {
+      width: 100vw;
+    }
   }
   .page {
     width: 100%;

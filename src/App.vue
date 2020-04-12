@@ -1,16 +1,22 @@
 <template>
   <div id="app">
+                    <div class="red"></div>
+
     <header>
      
 			<div class="menu-bar menu-bar-animated" @click="clicked = !clicked">
 				<div class="menu-bar--bar"></div>
 			</div>
-      <nav class="navigation" :class="{show : clicked}">
+      <nav class="navigation_mobile" v-show="clicked">
          <router-link to="/">Home</router-link> 
          <router-link to="/about">Rólunk</router-link>
          <router-link to="/contact">Kapcsolat</router-link>
       </nav>
-                <div class="red"></div>
+      <nav class="navigation">
+         <router-link to="/">Home</router-link> 
+         <router-link to="/about">Rólunk</router-link>
+         <router-link to="/contact">Kapcsolat</router-link>
+      </nav>
                <router-link to="/"><img src="images/logo_1920.jpg"  alt="JBubble logo"></router-link>
 
     </header>

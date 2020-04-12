@@ -19,11 +19,24 @@ header img {
   height: 100px;
 }
 
-header .red {
+@media screen and (max-width: 768px) {
+  header img {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.red {
   height: 19px;
-  width: 95vw;
+  width: 100vw;
   background-color: #EC1A23;
-  z-index: 33;
-  margin-top: 50px;
-  margin-left: -238px;
+  position: absolute;
+  top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .red {
+    display: none;
+  }
 }

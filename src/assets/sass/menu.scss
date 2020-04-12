@@ -1,24 +1,37 @@
 @import 'mixin.scss';
-.navigation {
+.navigation_mobile {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
     background-color: rgba(22, 68, 167, 0.8);
     align-items: center;
-    width: 150px;
-     margin: 31px 0px 0px 60px;
+    width: 80vw;
+    margin: 20px 0px 0px 50px;
     z-index: 8; 
     height: fit-content;
     padding: 5px 30px 50px 30px;
     transition: all .5s ease-in-out;
-    @include desktop{
+    z-index: 999;
+    a {
+      text-decoration: none;
+      color: rgb(233, 233, 233);
+      font-size: 19px;
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+    }
+}
+.navigation {
+    @include desktop {
         flex-direction: row;
-        background: none;
         margin: 0;
+        width: 100%;
+    }
+    @include tablet {
+        display: none;
     }
     a {
       display: inline-block;
-      margin: 18px 30px 20px 30px;
+      margin: 20px 20px 10px 10px;
       text-decoration: none;
       color: rgb(233, 233, 233);
       font-size: 19px;
@@ -36,14 +49,16 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 2rem;
-    left: 2rem;
+    top: 35px;
+    left: 35px;
     z-index: 20;
     cursor: pointer;
     transition: transform .3s ease-out;
     animation: barUp 2s ease-out 1s;
     animation-fill-mode: backwards;
-     
+     @include tablet {
+         display: block;
+     }
 &:hover {
 
 }
