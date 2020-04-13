@@ -3,13 +3,14 @@
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    background-color: rgba(22, 68, 167, 0.8);
+    background-color: rgba(22, 68, 167, 0.95);
+    border: 1px solid #fff;
     align-items: center;
     width: 80vw;
-    margin: 20px 0px 0px 50px;
+    margin: 45px 0px 0px 50px;
     z-index: 8; 
     height: fit-content;
-    padding: 5px 30px 50px 30px;
+    padding: 20px 30px 50px 30px;
     transition: all .5s ease-in-out;
     z-index: 999;
     a {
@@ -49,8 +50,8 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 35px;
-    left: 35px;
+    top: 49px;
+    left: 25px;
     z-index: 20;
     cursor: pointer;
     transition: transform .3s ease-out;
@@ -59,10 +60,9 @@
      @include tablet {
          display: block;
      }
-&:hover {
+    &:hover {
 
-}
-    
+    }
     &::before {
         content: "";
         position: absolute;
@@ -72,10 +72,8 @@
         height: 3px;
         background-color: #fff;
         transition: all .3s ease-out;
-        
     }
     &--bar{
-        
         position: absolute;
         top:0px;
         left:0;
@@ -83,8 +81,7 @@
         height: 3px;
         background-color: #fff;
         transition: all .3s ease-out;
-}
-        
+    }
         &::after {
         content: "";
         position: absolute;
@@ -93,19 +90,15 @@
         width: 20px;
         height: 3px;
         background-color: #fff;
-            transition: all .3s ease-out;
+        transition: all .3s ease-out;
         }
-        
-    
-&--close {
+    &--close {
     &::before {
-        
             transform: rotate(-45deg);
             top: 5px;
             background-color: #fff;
         }
     .menu-bar--bar {
-        
         transform: rotate(45deg);
         top: 5px;
         background-color: #fff;
@@ -113,7 +106,5 @@
     &::after {
             opacity: 0;
         }
-    
-}
-
+    }
 }
