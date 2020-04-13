@@ -22,16 +22,23 @@
     flex-direction: column;
     width: 30%;
     align-items: center;
-    background: url('/images/tea-bg.jpg') no-repeat;
-    background-size: 100% 100%;
+    background: url('/images/tea-bg-tablet.jpg') no-repeat;
+    background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     height: calc(100vh - 180px);
     @include tablet {
+      background: url('/images/tea-bg-tablet.jpg') no-repeat;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-blend-mode: overlay;
       background-size: cover;
       padding: 20px;
     }
     @include mobile {
+      background: url('/images/tea-bg-sm.jpg') no-repeat;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-blend-mode: overlay;
+      background-size: cover;
       height: 30vh;
       padding: 5px ;
       width: 100vw;
