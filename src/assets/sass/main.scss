@@ -1,6 +1,10 @@
 @import 'mixin.scss';
 #app {
     height: 100vh;
+    @include mobile {
+     height: auto;
+     overflow: auto;
+    }
 }
 
 .main_section {
@@ -9,6 +13,7 @@
     height: calc(100vh - 180px);
     @include mobile {
       flex-direction: column;
+      height: calc(100vh - 150px);
     }
   }
    
@@ -22,6 +27,20 @@
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     height: calc(100vh - 180px);
+    @include tablet {
+      background-size: cover;
+      padding: 20px;
+    }
+    @include mobile {
+      height: 30vh;
+      padding: 5px ;
+      width: 100vw;
+      z-index: 9;
+      flex-direction: row;
+      border: 1px solid #fff;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
     div {
       &:first-of-type {
         margin-top: 20px;
@@ -42,17 +61,23 @@
         color: #eee;
         padding: 20px;
         @include mobile {
-          width: 155px;
-          padding: 15px;
+          width: auto;
+          padding: 10px;
+          font-size: 16px;
+          letter-spacing: 1px;
         }
       }
-    }
+      @include tablet {
+        margin-right: 10px;
+        margin-left: 10px;
+        min-height: 80px;
+      }
+      @include mobile {
+        min-height: 55px;
+      }
+    } /*sidenav div end*/
     @include mobile {
-      width: 100vw;
-      z-index: 9;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
+      
     }
   }
   .content {
@@ -82,6 +107,7 @@
     p {
       width: 70%;
       margin: 10px auto;
+      margin-top: 20px;
     }
     
   

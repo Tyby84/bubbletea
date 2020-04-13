@@ -2,6 +2,13 @@
   height: 100vh;
 }
 
+@media screen and (max-width: 640px) {
+  #app {
+    height: auto;
+    overflow: auto;
+  }
+}
+
 .main_section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,6 +23,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: calc(100vh - 150px);
   }
 }
 
@@ -36,6 +44,33 @@
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
   height: calc(100vh - 180px);
+  /*sidenav div end*/
+}
+
+@media screen and (max-width: 768px) {
+  .sidenav {
+    background-size: cover;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .sidenav {
+    height: 30vh;
+    padding: 5px;
+    width: 100vw;
+    z-index: 9;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    border: 1px solid #fff;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .sidenav div {
@@ -73,24 +108,24 @@
 
 @media screen and (max-width: 640px) {
   .sidenav div a {
-    width: 155px;
-    padding: 15px;
+    width: auto;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidenav div {
+    margin-right: 10px;
+    margin-left: 10px;
+    min-height: 80px;
   }
 }
 
 @media screen and (max-width: 640px) {
-  .sidenav {
-    width: 100vw;
-    z-index: 9;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+  .sidenav div {
+    min-height: 55px;
   }
 }
 
@@ -130,4 +165,5 @@
 .page p {
   width: 70%;
   margin: 10px auto;
+  margin-top: 20px;
 }

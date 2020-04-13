@@ -1,7 +1,6 @@
 <template>
   <div id="app">
                     <div class="red"></div>
-
     <header>
      
 			<div class="menu-bar menu-bar-animated" @click="clicked = !clicked">
