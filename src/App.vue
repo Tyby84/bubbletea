@@ -7,9 +7,9 @@
 				<div class="menu-bar--bar"></div>
 			</div>
       <nav class="navigation_mobile" v-show="clicked">
-         <router-link to="/">Home</router-link> 
-         <router-link to="/about">Rólunk</router-link>
-         <router-link to="/contact">Kapcsolat</router-link>
+         <router-link to="/"><i class="fas fa-house-user"></i> Home</router-link> 
+         <router-link to="/about"><i class="far fa-address-card"></i> Rólunk</router-link>
+         <router-link to="/contact"><i class="far fa-envelope"></i> Kapcsolat</router-link>
       </nav>
       <nav class="navigation">
          <router-link to="/">Home</router-link> 
