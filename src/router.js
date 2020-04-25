@@ -6,6 +6,7 @@ import Teak from './views/Teak.vue';
 import Contact from './views/Contact.vue';
 import Gyumaroma from './views/Gyum_aroma.vue';
 import Tejaroma from './views/Tej_aroma.vue';
+import Zselek from './views/Zselek.vue';
 
 
 Vue.use(Router)
@@ -42,6 +43,10 @@ export default new Router({
     {
       path: '/tejesaroma',
       component: Tejaroma
+    },
+    {
+      path: '/zselek',
+      component: Zselek
     }
   ]
 });

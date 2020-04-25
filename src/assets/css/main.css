@@ -17,13 +17,19 @@
   height: calc(100vh - 180px);
 }
 
+@media screen and (max-width: 768px) {
+  .main_section {
+    height: calc(100vh - 170px);
+  }
+}
+
 @media screen and (max-width: 640px) {
   .main_section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 140px);
   }
 }
 
@@ -49,11 +55,9 @@
 
 @media screen and (max-width: 768px) {
   .sidenav {
-    background: url("/images/tea-bg-tablet.jpg") no-repeat;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: overlay;
     background-size: cover;
     padding: 20px;
+    height: calc(100vh - 170px);
   }
 }
 
@@ -93,6 +97,8 @@
   text-align: center;
   background-color: rgba(35, 23, 141, 0.6);
   margin-bottom: 15px;
+  -webkit-transition: background .5s ease-in-out;
+  transition: background .5s ease-in-out;
 }
 
 .sidenav div:first-of-type {
@@ -103,6 +109,10 @@
   .sidenav div:first-of-type {
     margin-top: 0;
   }
+}
+
+.sidenav div:hover {
+  background-color: rgba(35, 23, 141, 0.8);
 }
 
 .sidenav div a {
@@ -133,6 +143,7 @@
 @media screen and (max-width: 640px) {
   .sidenav div {
     min-height: 45px;
+    margin-bottom: 10px;
   }
 }
 

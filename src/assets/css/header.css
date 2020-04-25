@@ -9,6 +9,12 @@ header {
   height: 100px;
 }
 
+@media screen and (max-width: 768px) {
+  header {
+    height: 90px;
+  }
+}
+
 header img {
   display: inline-block;
   width: 158px;
@@ -21,8 +27,9 @@ header img {
 
 @media screen and (max-width: 768px) {
   header img {
+    height: 90px;
     position: absolute;
-    top: 0;
+    top: -10px;
     right: 0;
   }
 }

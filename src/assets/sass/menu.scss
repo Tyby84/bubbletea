@@ -26,21 +26,24 @@
         flex-direction: row;
         margin: 0;
         width: 100%;
+        padding-left: 30vw;
     }
     @include tablet {
         display: none;
     }
     a {
       display: inline-block;
-      margin: 20px 20px 10px 10px;
+      margin: 20px 25px 10px 0px;
       text-decoration: none;
       color: rgb(233, 233, 233);
       font-size: 19px;
       letter-spacing: 2px;
+      padding: 0 6px 2px 6px;
+      transition: all .4s ease-in-out;
       &:hover {
-        border-bottom: 1px solid #fff;
         margin-bottom: 19px;
-        color: #fff;
+        color: #222;
+        background-color: #eee;
       }
     }
 }
@@ -59,6 +62,7 @@
     animation-fill-mode: backwards;
      @include tablet {
          display: block;
+         top: 37px;
      }
     &:hover {
 

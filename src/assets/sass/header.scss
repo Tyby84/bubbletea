@@ -4,6 +4,9 @@ header {
     background-color: #231F20;
     justify-content: space-between;
     height: 100px;
+    @include tablet {
+      height: 90px;
+    }
     img {
     display: inline-block;
     width: 158px;
@@ -12,8 +15,9 @@ header {
     transform: scale(1.4);
     height: 100px;
     @include tablet {
+      height: 90px;
       position: absolute;
-      top: 0;
+      top: -10px;
       right: 0;
     }
     }

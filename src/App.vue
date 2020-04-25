@@ -26,7 +26,7 @@
      <div><router-link to="/gyumolcsaroma">Gyümölcs aroma</router-link></div>
      <div><router-link to="/tejesaroma">Tejes aroma</router-link></div>
      <div><router-link to="/Teak">Gyümölcs buborékok</router-link></div>
-     <div><router-link to="/Teak">Zselék</router-link></div>
+     <div><router-link to="/zselek">Zselék</router-link></div>
     </div> 
     <div class="content">
       <router-view></router-view> 
