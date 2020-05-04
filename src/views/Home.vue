@@ -1,10 +1,7 @@
 <template>
   <div class="page">
-
-    <h3>Kezdo page</h3>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloremque provident ipsam cumque fugit ex illo modi natus, perferendis eaque ab vero aliquam optio eum minima neque, excepturi, eligendi nesciunt!</p>
-
-   <!--  <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <h3>JBubble Tea</h3>
+    <img src="/images/welcome.jpg" width="100%" alt="">
   </div>
 </template>
 
@@ -20,7 +17,13 @@ export default {
   }
 }
 </script>
-<style>
-
+<style scoped>
+.content {
+  overflow: hidden;
+}
+  h3 {
+    padding-bottom: 8px;
+    border: none;
+  }
 </style>
 
