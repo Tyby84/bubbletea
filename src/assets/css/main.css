@@ -97,10 +97,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  background-color: rgba(35, 23, 141, 0.6);
   margin-bottom: 15px;
-  -webkit-transition: background .5s ease-in-out;
-  transition: background .5s ease-in-out;
 }
 
 .sidenav div:first-of-type {
@@ -113,15 +110,12 @@
   }
 }
 
-.sidenav div:hover {
-  background-color: rgba(35, 23, 141, 0.8);
-}
-
 .sidenav div a {
   width: 200px;
   text-decoration: none;
   font-size: 19px;
-  color: #eee;
+  font-weight: bold;
+  color: #e4e4e4;
   padding: 20px;
 }
 
@@ -184,8 +178,7 @@
 
 .page p {
   width: 70%;
-  margin: 50px auto;
-  margin-top: 20px;
+  margin: 20px auto;
   text-align: center;
   font-size: 25px;
 }
@@ -203,4 +196,18 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page hr {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .page hr {
+    width: 80%;
+  }
 }

@@ -13,7 +13,7 @@
       </nav>
       <nav class="navigation">
          <router-link to="/">Home</router-link> 
-         <!-- <router-link to="/about">Rólunk</router-link> -->
+         <router-link to="/about">Rólunk</router-link>
          <router-link to="/contact">Kapcsolat</router-link>
       </nav>
                <router-link to="/"><img src="images/logo_1920.jpg"  alt="JBubble logo"></router-link>

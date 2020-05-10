@@ -62,18 +62,19 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      background-color: rgba(35, 23, 141, 0.6);
+      //background-color: rgba(35, 23, 141, 0.6);
       margin-bottom: 15px;
-      transition: background .5s ease-in-out;
+      //transition: background .5s ease-in-out;
       &:hover {
-        background-color: rgba(35, 23, 141, 0.8);
+        //background-color: rgba(35, 23, 141, 0.8);
       }
 
       a {
         width: 200px;
         text-decoration: none;
         font-size: 19px;
-        color: #eee;
+        font-weight: bold;
+        color: rgb(228, 228, 228);
         padding: 20px;
         @include mobile {
           width: auto;
@@ -122,8 +123,8 @@
     }
     p {
       width: 70%;
-    margin: 50px auto;
-    margin-top: 20px;
+    margin: 20px auto;
+    //margin-top: 20px;
     text-align: center;
     font-size: 25px;
       @include mobile {
@@ -133,6 +134,18 @@
     .welcomePic {
       display: flex;
       justify-content: center;
+      align-items: center;
+      img {
+      // width: 40%;
+      // height: 70%;
+      // flex: 1 1 40%;
+      }
     }
-  
+    hr {
+      width: 50%;
+      margin: 0 auto;
+      @include tablet {
+        width: 80%;
+      }
+    }
   }
