@@ -1,7 +1,7 @@
 <template>
   <div class="page">
-    <h3>JBubble Tea</h3>
-    <img src="/images/welcome.JPG" width="100%" alt="">
+   
+    <img src="/images/newBg.png" height="100%" width="100%" alt="">
   </div>
 </template>
 

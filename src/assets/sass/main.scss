@@ -25,9 +25,9 @@
     flex-direction: column;
     width: 30%;
     align-items: center;
-    background: url('/images/newBg.png') no-repeat;
+    background: url('/images/welcome.JPG') no-repeat;
     background-size: cover;
-    background-position: 55% 50%;
+    background-position: 70% 50%;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     height: calc(100vh - 180px);
@@ -37,7 +37,7 @@
       height: calc(100vh - 170px);
     }
     @include mobile {
-      background: url('/images/newBg.png') no-repeat;
+      background: url('/images/welcome.JPG') no-repeat;
       background-color: rgba(0, 0, 0, 0.5);
       background-blend-mode: overlay;
       background-size: contain;
@@ -97,7 +97,7 @@
     }
   }
   .content {
-    background-color: rgb(58, 58, 58);
+    background: rgba(54, 46, 122, 0.7);
     display: flex;
     width: 70%;
     height: 100%;

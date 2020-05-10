@@ -4,6 +4,7 @@ header {
     background-color: #231F20;
     justify-content: space-between;
     height: 100px;
+    overflow: hidden;
     @include tablet {
       height: 90px;
     }
