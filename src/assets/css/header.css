@@ -7,7 +7,6 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100px;
-  overflow: hidden;
 }
 
 @media screen and (max-width: 768px) {
@@ -24,6 +23,8 @@ header img {
   -webkit-transform: scale(1.4);
           transform: scale(1.4);
   height: 100px;
+  -webkit-clip-path: polygon(0 1%, 100% 0, 100% 70%, 0 70%);
+          clip-path: polygon(0 1%, 100% 0, 100% 70%, 0 70%);
 }
 
 @media screen and (max-width: 768px) {

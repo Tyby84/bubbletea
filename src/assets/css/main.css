@@ -67,8 +67,8 @@
     background: url("/images/welcome.JPG") no-repeat;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
-    background-size: contain;
-    background-position: 50% 100%;
+    background-size: cover;
+    background-position: 50% 55%;
     height: 30vh;
     padding: 5px;
     width: 100vw;

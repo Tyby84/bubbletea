@@ -4,9 +4,13 @@ header {
     background-color: #231F20;
     justify-content: space-between;
     height: 100px;
-    overflow: hidden;
+    //overflow: hidden;
     @include tablet {
       height: 90px;
+      //overflow: hidden !important;
+    }
+    @include mobile {
+      //overflow: auto;
     }
     img {
     display: inline-block;
@@ -15,6 +19,8 @@ header {
     margin-top: 17px;
     transform: scale(1.4);
     height: 100px;
+    clip-path: polygon(0 1%, 100% 0, 100% 70%, 0 70%);
+
     @include tablet {
       height: 90px;
       position: absolute;
