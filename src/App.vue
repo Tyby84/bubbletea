@@ -19,7 +19,7 @@
                <router-link to="/"><img src="images/logo_1920.jpg"  alt="JBubble logo"></router-link>
 
     </header>
-    <div class="main_section">
+    <div class="main_section" v-on:click="clickClose()">
     <div class="sidenav">
         
      <div><router-link to="/Teak">Teák</router-link></div>
@@ -50,8 +50,16 @@
       return {
         clicked: false
       }
-      
-    }
+      },
+
+      created() {
+        this.clickClose;
+      },
+      methods: {
+      clickClose() {
+        this.clicked = false;
+      }
+      }
   }
 </script>
 
