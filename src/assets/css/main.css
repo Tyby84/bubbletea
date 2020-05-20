@@ -65,8 +65,6 @@
 @media screen and (max-width: 640px) {
   .sidenav {
     background: url("/images/welcome.JPG") no-repeat;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: overlay;
     background-size: cover;
     background-position: 50% 55%;
     height: 30vh;
@@ -97,7 +95,10 @@
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
   margin-bottom: 15px;
+  -webkit-transition: background .5s ease-in-out;
+  transition: background .5s ease-in-out;
 }
 
 .sidenav div:first-of-type {
@@ -110,12 +111,16 @@
   }
 }
 
+.sidenav div:hover, .sidenav div:active {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
 .sidenav div a {
   width: 200px;
   text-decoration: none;
   font-size: 19px;
   font-weight: bold;
-  color: #e4e4e4;
+  color: #313131;
   padding: 20px;
 }
 
@@ -144,7 +149,10 @@
 }
 
 .content {
-  background: rgba(54, 46, 122, 0.7);
+  background: url("/images/pageBg.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 70% 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

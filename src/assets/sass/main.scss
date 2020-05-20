@@ -38,8 +38,8 @@
     }
     @include mobile {
       background: url('/images/welcome.JPG') no-repeat;
-      background-color: rgba(0, 0, 0, 0.5);
-      background-blend-mode: overlay;
+      // background-color: rgba(0, 0, 0, 0.5);
+      // background-blend-mode: overlay;
       background-size: cover;
       background-position: 50% 55%;
       height: 30vh;
@@ -62,11 +62,11 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      //background-color: rgba(35, 23, 141, 0.6);
+      background-color: rgba(255, 255, 255, 0.6);
       margin-bottom: 15px;
-      //transition: background .5s ease-in-out;
-      &:hover {
-        //background-color: rgba(35, 23, 141, 0.8);
+      transition: background .5s ease-in-out;
+      &:hover, &:active {
+        background-color: rgba(255, 255, 255, 0.85);
       }
 
       a {
@@ -74,7 +74,7 @@
         text-decoration: none;
         font-size: 19px;
         font-weight: bold;
-        color: rgb(228, 228, 228);
+        color: rgb(49, 49, 49);
         padding: 20px;
         @include mobile {
           width: auto;
@@ -98,7 +98,10 @@
     }
   }
   .content {
-    background: rgba(54, 46, 122, 0.7);
+    background: url('/images/pageBg.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 70% 50%;
     display: flex;
     width: 70%;
     height: 100%;
