@@ -1,22 +1,24 @@
 <template>
   <div class="page">
-
+    <div>
     <vueper-slides
       ref="myVueperSlides"
       autoplay
       :pause-on-hover="pauseOnHover"
       @autoplay-pause="internalAutoPlaying = false"
       @autoplay-resume="internalAutoPlaying = true">
-  <vueper-slide
-    v-for="(slide) in slides"
-    :key="slide.id"
-    :title="slide.title"
-    :content="slide.content"
-     />
-  <template v-slot:pause>
-    <i class="icon pause_circle_outline"></i>
-  </template>
-</vueper-slides>
+      <vueper-slide
+        v-for="(slide) in slides"
+        :key="slide.id"
+        :title="slide.title"
+        :content="slide.content"
+        :image="slide.image"
+        />
+      <template v-slot:pause>
+        <i class="icon pause_circle_outline"></i>
+      </template>
+  </vueper-slides>
+</div>
   </div>
 </template>
 
@@ -36,15 +38,19 @@ export default {
   slides: [
     {
       id: 'slide-1',
-      title: 'Slide <b style="font-size: 1.3em;color: yellow">#1</b>',
-      content: 'Slide title can be HTML.<br>And so does the slide content, <span style="font-size: 1.2em;color: yellow">why not?</span>'
+      //title: 'Slide <b style="font-size: 1.3em;color: yellow">#1</b>',
+          image: '/images/dia1.jpg',
     },
     {
       id: 'slide-2',
-      title: 'Slide <b style="font-size: 1.3em;color: yellow">#1</b>',
-      content: '<img src="/images/newBg.png" width="60%" alt="J Bubble Tea">'
+      //title: 'Slide <b style="font-size: 1.3em;color: yellow">#1</b>',
+          image: '/images/dia2.jpg',
     },
-    // Other slides...
+    {
+      id: 'slide-3',
+      //title: 'Slide <b style="font-size: 1.3em;color: yellow">#1</b>',
+          image: '/images/dia3.jpg',
+    }
   ]
 })
 }
