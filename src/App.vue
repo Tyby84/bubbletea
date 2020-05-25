@@ -69,5 +69,7 @@
 @import './assets/css/main.css';
 @import './assets/css/footer.css';
 @import './assets/css/menu.css';
+@import './assets/css/slides.css';
+@import './assets/css/sections.css';
 
 </style>

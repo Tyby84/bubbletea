@@ -1,0 +1,14 @@
+.slidesec {
+  border-bottom: 5px solid #fff;
+}
+
+.baracksec {
+  position: relative;
+  padding-top: 80px;
+}
+
+.baracksec .cetli {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

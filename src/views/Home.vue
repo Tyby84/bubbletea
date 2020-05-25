@@ -1,7 +1,7 @@
 <template>
   <div class="page">
-    <div>
-    <vueper-slides
+    <section class="slidesec">
+      <vueper-slides
       ref="myVueperSlides"
       autoplay
       :pause-on-hover="pauseOnHover"
@@ -14,11 +14,23 @@
         :content="slide.content"
         :image="slide.image"
         />
-      <template v-slot:pause>
+      <!-- <template v-slot:pause>
         <i class="icon pause_circle_outline"></i>
-      </template>
-  </vueper-slides>
-</div>
+      </template> -->
+      </vueper-slides>
+      <div>
+        <h3>#jkoktelbubbletea</h3>
+    </div>
+    </section>
+    <section class="baracksec">
+      <div class="cetli"><img src="/images/section/Cetli1.png" width="100%" alt="Barack Tea"></div>
+      <div class="tea"><img src="/images/section/barack_tea.png" width="100%" alt="Barack Tea"></div>
+      
+    </section>
+    <section class="lime">
+      <div><img src="/images/section/Cetli2.png" width="100%" alt=""></div>
+      <div><img src="/images/section/Teafuvek.png" width="100%" alt=""></div>
+    </section>
   </div>
 </template>
 
