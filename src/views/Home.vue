@@ -33,9 +33,19 @@
     </section>
 
     <section class="korte">
-      <img src="/images/section/cetli3.png" width="100%" alt="">
-      <div><img src="/images/section/Teafuvek.png" width="100%" alt=""></div>
+      <img class="cetli" src="/images/section/cetli3.png" width="50%" alt="">
+      <div>
+        <img src="/images/section/Tea3.png" width="30%" alt="">
+        <img src="/images/section/Tea4.png" width="30%" alt="">
+        <img src="/images/section/korte.png" width="10%"  alt="">
+      </div>
     </section>
+  <section class="shop">
+    <img class="cetli" src="/images/section/Cetli4.png" width="100%" alt="">
+    <img src="/images/section/pinktea.png" width="30%" alt="">
+    <img src="/images/section/shopfront.png" width="70%" alt="">
+    <img class="bolttabla" src="/images/section/bolttabla.png" width="50%" alt="">
+  </section>
   </div>
 </template>
 

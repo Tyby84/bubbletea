@@ -15,6 +15,7 @@
 
 .lime {
   position: relative;
+  height: auto;
 }
 
 .lime .cetli {
@@ -22,4 +23,29 @@
   top: 70px;
   right: -10px;
   width: 50%;
+}
+
+.korte {
+  position: relative;
+}
+
+.korte .cetli {
+  position: absolute;
+  top: -100px;
+  left: 0px;
+  width: 35%;
+}
+
+.korte div > img {
+  margin-left: 15px;
+}
+
+.shop {
+  position: relative;
+}
+
+.shop .bolttabla {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
