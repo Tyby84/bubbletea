@@ -12,3 +12,14 @@
   top: 0;
   left: 0;
 }
+
+.lime {
+  position: relative;
+}
+
+.lime .cetli {
+  position: absolute;
+  top: 70px;
+  right: -10px;
+  width: 50%;
+}

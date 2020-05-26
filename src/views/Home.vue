@@ -23,12 +23,17 @@
     </div>
     </section>
     <section class="baracksec">
-      <div class="cetli"><img src="/images/section/Cetli1.png" width="100%" alt="Barack Tea"></div>
+      <img class="cetli" src="/images/section/Cetli1.png" width="100%" alt="Barack Tea">
       <div class="tea"><img src="/images/section/barack_tea.png" width="100%" alt="Barack Tea"></div>
-      
     </section>
+
     <section class="lime">
-      <div><img src="/images/section/Cetli2.png" width="100%" alt=""></div>
+      <img class="cetli" src="/images/section/Cetli2.png" alt="">
+      <div class="tea"><img src="/images/section/Teafuvek.png" width="100%" alt=""></div>
+    </section>
+
+    <section class="korte">
+      <img src="/images/section/cetli3.png" width="100%" alt="">
       <div><img src="/images/section/Teafuvek.png" width="100%" alt=""></div>
     </section>
   </div>
