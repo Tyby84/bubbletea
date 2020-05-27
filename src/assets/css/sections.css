@@ -16,6 +16,7 @@
 .lime {
   position: relative;
   height: auto;
+  margin-top: -80px;
 }
 
 .lime .cetli {
@@ -27,11 +28,13 @@
 
 .korte {
   position: relative;
+  margin-top: -60px;
+  padding-bottom: 45px;
 }
 
 .korte .cetli {
   position: absolute;
-  top: -100px;
+  top: -50px;
   left: 0px;
   width: 35%;
 }
@@ -42,10 +45,31 @@
 
 .shop {
   position: relative;
+  height: 64%;
+}
+
+.shop .cetli {
+  position: absolute;
+  top: -65px;
+  left: 0;
 }
 
 .shop .bolttabla {
   position: absolute;
-  bottom: 0;
+  bottom: 35px;
   right: 0;
+  z-index: 2;
+}
+
+.shop .pinktea {
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+
+.shop .lablec {
+  position: relative;
+  bottom: 80px;
+  right: 0;
+  z-index: 1;
 }
