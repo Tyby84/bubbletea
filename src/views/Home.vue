@@ -34,17 +34,13 @@
 
     <section class="korte">
       <img class="cetli" src="/images/section/cetli3.png" width="50%" alt="">
-      <div>
-        <img src="/images/section/osszetett.png" width="100%" alt="">
+        <img class="osszetett" src="/images/section/osszetett.png" width="100%" alt="">
         
-      </div>
     </section>
   <section class="shop">
     <img class="cetli" src="/images/section/Cetli4.png" width="100%" alt="">
-    <img class="pinktea" src="/images/section/pinktea.png" width="30%" alt="">
-    <img src="/images/section/shopfront.png" width="100%" alt="">
-    <img class="bolttabla" src="/images/section/bolttabla.png" width="50%" alt="">
-    <img class="lablec" src="/images/section/lablec.png" width="100%" alt="">
+    <img class="" src="/images/section/utolsofooldalkep.png" width="100%" alt="">
+    
   </section>
   </div>
 </template>

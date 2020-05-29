@@ -1,7 +1,3 @@
-.slidesec {
-  border-bottom: 5px solid #fff;
-}
-
 .baracksec {
   position: relative;
   padding-top: 80px;
@@ -39,8 +35,9 @@
   width: 35%;
 }
 
-.korte div > img {
-  margin-left: 15px;
+.korte .osszetett {
+  margin-left: -30px;
+  width: 114%;
 }
 
 .shop {
@@ -50,26 +47,6 @@
 
 .shop .cetli {
   position: absolute;
-  top: -65px;
+  bottom: 265px;
   left: 0;
-}
-
-.shop .bolttabla {
-  position: absolute;
-  bottom: 35px;
-  right: 0;
-  z-index: 2;
-}
-
-.shop .pinktea {
-  position: absolute;
-  top: 40px;
-  left: 0;
-}
-
-.shop .lablec {
-  position: relative;
-  bottom: 80px;
-  right: 0;
-  z-index: 1;
 }
