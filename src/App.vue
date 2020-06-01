@@ -22,11 +22,11 @@
     <div class="main_section" v-on:click="clickClose()">
     <div class="sidenav">
         
-     <div><router-link to="/Teak">Teák</router-link></div>
+     <div><router-link to="/Teak">Tea</router-link></div>
      <div><router-link to="/gyumolcsaroma">Gyümölcs aroma</router-link></div>
      <div><router-link to="/tejesaroma">Tejes aroma</router-link></div>
      <div><router-link to="/Teak">Gyümölcs buborékok</router-link></div>
-     <div><router-link to="/zselek">Zselék</router-link></div>
+     <div><router-link to="/zselek">Gyümölcs Zselék</router-link></div>
     </div> 
     <div class="content">
       <router-view></router-view> 

@@ -85,6 +85,7 @@
 }
 
 .sidenav div {
+  width: 43%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,6 +104,7 @@
 
 .sidenav div:first-of-type {
   margin-top: 20px;
+  width: 50%;
 }
 
 @media screen and (max-width: 640px) {
@@ -127,9 +129,15 @@
 @media screen and (max-width: 640px) {
   .sidenav div a {
     width: auto;
-    padding: 10px;
+    padding: 10px 5px;
     font-size: 16px;
-    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .sidenav div a {
+    padding: 10px 1px;
+    font-size: 14px;
   }
 }
 
@@ -219,4 +227,10 @@
   .page hr {
     width: 80%;
   }
+}
+
+.page .contact h4 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
 }
