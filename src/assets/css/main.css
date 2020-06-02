@@ -85,7 +85,6 @@
 }
 
 .sidenav div {
-  width: 43%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,41 +103,17 @@
 
 .sidenav div:first-of-type {
   margin-top: 20px;
-  width: 50%;
 }
 
 @media screen and (max-width: 640px) {
   .sidenav div:first-of-type {
+    width: 220px;
     margin-top: 0;
   }
 }
 
 .sidenav div:hover, .sidenav div:active {
   background-color: rgba(255, 255, 255, 0.85);
-}
-
-.sidenav div a {
-  width: 200px;
-  text-decoration: none;
-  font-size: 19px;
-  font-weight: bold;
-  color: #313131;
-  padding: 20px;
-}
-
-@media screen and (max-width: 640px) {
-  .sidenav div a {
-    width: auto;
-    padding: 10px 5px;
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .sidenav div a {
-    padding: 10px 1px;
-    font-size: 14px;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -153,6 +128,31 @@
   .sidenav div {
     min-height: 45px;
     margin-bottom: 10px;
+  }
+}
+
+.sidenav div a {
+  width: 180px;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bold;
+  color: #313131;
+  padding: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  .sidenav div a {
+    width: 150px;
+    padding: 10px 5px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .sidenav div a {
+    width: 130px;
+    padding: 10px 1px;
+    font-size: 14px;
   }
 }
 
@@ -233,4 +233,8 @@
   color: #fff;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.page .contact a {
+  text-decoration: none;
 }

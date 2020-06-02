@@ -7,6 +7,7 @@ import Contact from './views/Contact.vue';
 import Gyumaroma from './views/Gyum_aroma.vue';
 import Tejaroma from './views/Tej_aroma.vue';
 import Zselek from './views/Zselek.vue';
+import Menu from './views/Menu.vue';
 
 
 Vue.use(Router)
@@ -47,6 +48,10 @@ export default new Router({
     {
       path: '/zselek',
       component: Zselek
+    },
+    {
+      path: '/menu',
+      component: Menu
     }
   ]
 });

@@ -54,12 +54,13 @@
     div {
       &:first-of-type {
         margin-top: 20px;
-        width: 50%;
+         
         @include mobile {
+          width: 220px;
           margin-top: 0;
         }
       }
-      width: 43%;
+      //width: 43%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -71,25 +72,6 @@
         background-color: rgba(255, 255, 255, 0.85);
       }
 
-      a {
-        width: 200px;
-        text-decoration: none;
-        font-size: 19px;
-        font-weight: bold;
-        color: rgb(49, 49, 49);
-        padding: 20px;
-        @include mobile {
-          width: auto;
-          padding: 10px 5px;
-          font-size: 16px;
-          //letter-spacing: 1px;
-        }
-        @media screen and (max-width: 375px) {
-          padding: 10px 1px;
-          font-size: 14px;
-          //letter-spacing: 0;
-        }
-      }
       @include tablet {
         margin-right: 10px;
         margin-left: 10px;
@@ -99,6 +81,30 @@
         min-height: 45px;
         margin-bottom: 10px;
       }
+
+      a {
+        width: 180px;
+        //width: 120px;
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: bold;
+        color: rgb(49, 49, 49);
+        padding: 20px;
+        @include mobile {
+          width: 150px;
+          //width: auto;
+          padding: 10px 5px;
+          font-size: 16px;
+          //letter-spacing: 1px;
+        }
+        @media screen and (max-width: 375px) {
+          width: 130px;
+          padding: 10px 1px;
+          font-size: 14px;
+          //letter-spacing: 0;
+        }
+      }
+      
     } /*sidenav div end*/
     @include mobile {
       
@@ -164,6 +170,9 @@
       color: #fff;
       text-align: center;
       margin-bottom: 10px;
+    }
+    a {
+      text-decoration: none;
     }
   }
   }
