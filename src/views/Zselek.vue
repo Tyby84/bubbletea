@@ -17,12 +17,5 @@ export default {
 }
 </script>
 <style lang="scss">
-  .aromak {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  .aroma {
-    width: 300px;
-  }
-  }
+  
 </style>

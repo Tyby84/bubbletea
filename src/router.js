@@ -8,6 +8,7 @@ import Gyumaroma from './views/Gyum_aroma.vue';
 import Tejaroma from './views/Tej_aroma.vue';
 import Zselek from './views/Zselek.vue';
 import Menu from './views/Menu.vue';
+import GyumBubi from './views/Gyum_bubik.vue';
 
 
 Vue.use(Router)
@@ -52,6 +53,10 @@ export default new Router({
     {
       path: '/menu',
       component: Menu
+    },
+    {
+      path: '/gyumBubi',
+      component: GyumBubi
     }
   ]
 });

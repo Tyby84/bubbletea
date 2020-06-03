@@ -140,10 +140,9 @@
     }
     p {
       width: 70%;
-    margin: 20px auto;
-    //margin-top: 20px;
-    text-align: center;
-    font-size: 25px;
+      margin: 20px auto;
+      text-align: center;
+      font-size: 25px;
       @include mobile {
         font-size: 19px;
       }
@@ -152,11 +151,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      img {
-      // width: 40%;
-      // height: 70%;
-      // flex: 1 1 40%;
-      }
+      
     }
     hr {
       width: 50%;
@@ -168,13 +163,18 @@
     .contact {
       text-decoration: none !important;
       h4 {
-      color: #fff;
+        color: rgb(158,30,98);
       text-align: center;
       margin-bottom: 10px;
       margin-top: -80px;
     }
-    a {
-      
+    .aromak {
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    .aroma {
+      width: 300px;
+    }
     }
   }
   }

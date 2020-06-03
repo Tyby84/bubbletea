@@ -234,8 +234,23 @@
 }
 
 .page .contact h4 {
-  color: #fff;
+  color: #9e1e62;
   text-align: center;
   margin-bottom: 10px;
   margin-top: -80px;
+}
+
+.page .contact .aromak {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page .contact .aromak .aroma {
+  width: 300px;
 }
