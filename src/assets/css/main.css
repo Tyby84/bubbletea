@@ -240,7 +240,7 @@
   margin-top: -80px;
 }
 
-.page .contact .aromak {
+.page .aromak {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -251,6 +251,6 @@
           justify-content: center;
 }
 
-.page .contact .aromak .aroma {
+.page .aromak .aroma {
   width: 300px;
 }
