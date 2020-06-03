@@ -25,7 +25,6 @@ header {
     clip-path: polygon(0 1%, 100% 0, 100% 70%, 0 70%); */
 
     @include tablet {
-      height: 90px;
       position: absolute;
       top: 7px;
       right: 0;

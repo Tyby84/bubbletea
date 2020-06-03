@@ -30,7 +30,6 @@ header img {
 
 @media screen and (max-width: 768px) {
   header img {
-    height: 90px;
     position: absolute;
     top: 7px;
     right: 0;
