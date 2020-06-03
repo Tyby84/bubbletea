@@ -229,12 +229,13 @@
   }
 }
 
+.page .contact {
+  text-decoration: none !important;
+}
+
 .page .contact h4 {
   color: #fff;
   text-align: center;
   margin-bottom: 10px;
-}
-
-.page .contact a {
-  text-decoration: none;
+  margin-top: -80px;
 }

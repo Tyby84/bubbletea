@@ -25,9 +25,9 @@
     <div class="sidenav">
         
      <div><router-link to="/Teak">Tea</router-link></div>
-     <div><router-link to="/gyumolcsaroma">Gyümölcs aroma</router-link></div>
-     <div><router-link to="/tejesaroma">Tejes aroma</router-link></div>
-     <div><router-link to="/Teak">Gyümölcs buborékok</router-link></div>
+     <div><router-link to="/gyumolcsaroma">Gyümölcs Aroma</router-link></div>
+     <div><router-link to="/tejesaroma">Tejes Aroma</router-link></div>
+     <div><router-link to="/Teak">Gyümölcs Buborékok</router-link></div>
      <div><router-link to="/zselek">Gyümölcs Zselék</router-link></div>
     </div> 
     <div class="content">

@@ -166,13 +166,15 @@
       }
     }
     .contact {
+      text-decoration: none !important;
       h4 {
       color: #fff;
       text-align: center;
       margin-bottom: 10px;
+      margin-top: -80px;
     }
     a {
-      text-decoration: none;
+      
     }
   }
   }

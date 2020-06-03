@@ -30,12 +30,13 @@
 
 .korte .cetli {
   position: absolute;
-  top: -35px;
+  top: -45px;
   left: 10px;
   width: 35%;
 }
 
 .korte .osszetett {
+  margin-top: -80px;
   margin-left: -30px;
   width: 114%;
 }
@@ -50,9 +51,6 @@
   left: 5px;
 }
 
-.shop .lablec {
-  position: absolute;
-  top: 220px;
-  left: 0;
-  z-index: -1;
+.shop .utolsokep {
+  margin-bottom: -6px;
 }

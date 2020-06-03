@@ -39,13 +39,11 @@
     </section>
   <section class="shop">
     <img class="cetli" src="/images/section/Cetli4.png" width="100%" alt="">
-    <img class="" src="/images/section/utolsofooldalkep.png" width="100%" alt="">
-    <img class="lablec" src="/images/section/lablec.png" width="100%" alt="">
     
+    <img class="utolsokep" src="/images/section/utolsofooldalkep.png" width="100%" alt="">    
   </section>
   </div>
 </template>
-
 <script>
 // @ is an alias to /src
 // import CategoryLink from '@/components/CategoryLink.vue'

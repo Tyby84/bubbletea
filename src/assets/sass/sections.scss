@@ -31,27 +31,25 @@
     padding-bottom: 45px;
         .cetli {
         position: absolute;
-        top: -35px;
+        top: -45px;
         left: 10px;
         width: 35%;
     }
    .osszetett {
+    margin-top: -80px;
     margin-left: -30px;
     width: 114%;
    }
 }
 .shop {
     position: relative;
-    //height: 64%;
     .cetli {
         position: absolute;
         top: -75px;
         left: 5px;
     }
-    .lablec {
-        position: absolute;
-    top: 220px;
-    left: 0;
-    z-index: -1;
+   
+    .utolsokep {
+        margin-bottom: -6px;
     }
 }
