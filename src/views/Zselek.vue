@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <h3>Zselék</h3>
+    <h3>Gyümölcs Zselék</h3>
     <div class="aromak">
       <img  class="aroma" src="images/zselek/Áfonya GYÜMÖLCS  zsele-01.png">
       <img  class="aroma" src="images/zselek/Ananász GYÜMÖLCS  zsele-01.png">

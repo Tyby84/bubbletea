@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <h3>Tej aroma oldal</h3>
+    <h3>Tejes Aromák</h3>
     <div class="aromak">
       <img  class="aroma" src="images/tejes/Áfonya TEJ  Aroma-01.png">
       <img  class="aroma" src="images/tejes/Görögdinnye TEJ  Aroma-01.png">

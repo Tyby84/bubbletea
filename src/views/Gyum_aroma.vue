@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <h3>Gyumolcs aroma oldal</h3>
+    <h3>Gyümölcs Aromák</h3>
     <div class="aromak">
     <img class="aroma" src="/images/aroma/Áfonya GYÜMÖLCS  Aroma-01.png" alt="Áfonya aroma">
     <img class="aroma" src="/images/aroma/Ananász GYÜMÖLCS  Aroma-01.png" alt="Ananász aroma">

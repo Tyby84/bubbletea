@@ -18,7 +18,7 @@
          <router-link to="/contact">Kapcsolat</router-link>
          <router-link to="/menu">Menü</router-link>
       </nav>
-               <router-link to="/"><img src="images/logo_1920.jpg"  alt="JBubble logo"></router-link>
+               <router-link to="/"><img src="images/logo.png"  alt="JBubble logo"></router-link>
     </header>
     <div class="main_section" v-on:click="clickClose()">
     <div class="sidenav">

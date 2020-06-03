@@ -1,7 +1,10 @@
 @import 'mixin.scss';
 header {
     display: flex;
-    background-color: #231F20;
+    background: url('/images/pageBg.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 70% 50%;
     justify-content: space-between;
     height: 100px;
     //overflow: hidden;
@@ -14,17 +17,17 @@ header {
     }
     img {
     display: inline-block;
-    width: 158px;
+    /* width: 158px;
     margin-right: 48px;
     margin-top: 17px;
     transform: scale(1.4);
     height: 100px;
-    clip-path: polygon(0 1%, 100% 0, 100% 70%, 0 70%);
+    clip-path: polygon(0 1%, 100% 0, 100% 70%, 0 70%); */
 
     @include tablet {
       height: 90px;
       position: absolute;
-      top: -10px;
+      top: 7px;
       right: 0;
     }
     }
