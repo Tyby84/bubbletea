@@ -249,6 +249,14 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+@media screen and (max-width: 400px) {
+  .page .aromak {
+    padding-left: 10%;
+  }
 }
 
 .page .aromak .aroma {
