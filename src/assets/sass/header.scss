@@ -21,13 +21,15 @@ header {
     margin-right: 48px;
     margin-top: 17px;
     transform: scale(1.4);
-    height: 100px;
+    
     clip-path: polygon(0 1%, 100% 0, 100% 70%, 0 70%); */
-
-    @include tablet {
+    height: 100px;
+    @include mobile {
       position: absolute;
-      top: 7px;
+      top: 2px;
       right: 0;
+      clip-path: polygon(40% 0%, 100% 0, 100% 100%, 40% 100%);
+
     }
     }
 }

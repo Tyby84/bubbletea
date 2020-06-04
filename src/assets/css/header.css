@@ -24,15 +24,18 @@ header img {
     margin-right: 48px;
     margin-top: 17px;
     transform: scale(1.4);
-    height: 100px;
+    
     clip-path: polygon(0 1%, 100% 0, 100% 70%, 0 70%); */
+  height: 100px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   header img {
     position: absolute;
-    top: 7px;
+    top: 2px;
     right: 0;
+    -webkit-clip-path: polygon(40% 0%, 100% 0, 100% 100%, 40% 100%);
+            clip-path: polygon(40% 0%, 100% 0, 100% 100%, 40% 100%);
   }
 }
 
