@@ -107,8 +107,10 @@
 
 @media screen and (max-width: 640px) {
   .sidenav div:first-of-type {
-    width: 220px;
+    width: 130px;
     margin-top: 0;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 
