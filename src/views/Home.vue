@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <section class="slidesec">
+    <section id="top" class="slidesec">
       <vueper-slides
       ref="myVueperSlides"
       autoplay
@@ -42,6 +42,7 @@
     
     <img class="utolsokep" src="/images/section/utolsofooldalkep.png" width="100%" alt="">    
   </section>
+  <a href="#top" class="totop" ><i class="fas fa-chevron-up"></i></a>
   </div>
 </template>
 <script>

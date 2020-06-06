@@ -1,6 +1,7 @@
 <template>
   <div class="page">
-    <h3>Gyümölcs Zselék</h3>
+    <h3 id="top">Gyümölcs Zselék</h3>
+    <p>"A szín és az íz textúra egyedi kombinációja."</p>
     <div class="aromak">
       <img  class="aroma" src="images/zselek/Áfonya GYÜMÖLCS  zsele-01.png">
       <span class="circle"></span>
@@ -13,13 +14,11 @@
       <img  class="aroma" src="images/zselek/Zold Alma GYÜMÖLCS  zsele-01.png">
       <span class="circle"></span>
     </div>
-    
+    <a href="#top" class="totop" ><i class="fas fa-chevron-up"></i></a>
     </div>
 </template>
 <script>
-export default {
-  
-}
+
 </script>
 <style lang="scss">
   

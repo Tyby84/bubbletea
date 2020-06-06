@@ -1,6 +1,7 @@
 <template>
   <div class="page">
-    <h3>Gyümölcs Aromák</h3>
+    <h3 id="top">Gyümölcs Aromák</h3>
+    <p>"Az édes és savanyú ízek változatos választéka, amelyeket ízlésedre formálhatod."</p>
     <div class="aromak">
     <img class="aroma" src="/images/aroma/Áfonya GYÜMÖLCS  Aroma-01.png" alt="Áfonya aroma">
     <span class="circle"></span>
@@ -38,7 +39,7 @@
     <span class="circle"></span>
     <img class="aroma" src="/images/aroma/Zöld alma GYÜMÖLCS  Aroma-01.png" alt="Zöld alma aroma">
     <span class="circle"></span>
-
     </div>
+    <a href="#top" class="totop" ><i class="fas fa-chevron-up"></i></a>
 </div>
 </template>

@@ -1,6 +1,7 @@
 <template>
   <div class="page">
-    <h3>Tejes Aromák</h3>
+    <h3 id="top">Tejes Aromák</h3>
+    <p>"Az egzotikus gyümölcsöknek köszönhető az egyedi tej tea íz."</p>
     <div class="aromak">
       <img  class="aroma" src="images/tejes/Áfonya TEJ  Aroma-01.png">
       <span class="circle"></span>
@@ -18,7 +19,7 @@
       <span class="circle"></span>
       
     </div>
-    
+    <a href="#top" class="totop" ><i class="fas fa-chevron-up"></i></a>
     </div>
 </template>
 

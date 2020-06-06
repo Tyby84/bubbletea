@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <h3>Rólunk oldal</h3>
+    <h3 id="top">Rólunk oldal</h3>
     <p>Büszkén mondhatjuk el Nektek, hogy immáron két éve üzemel a <br> J Koktél Bubble Tea.</p>
     <hr>
     <p>Kecskeméten elsőkézből ajánljuk a Tajvan ról származó különleges ízvilágot. <br> 
@@ -9,5 +9,7 @@
      <hr>
     <p>Megtiszteltetés, hogy a vásárlóink visszajelzése alapján Mi készítjük az ország legfinomabb Bubble Tea jét.</p>
     <p>Nincs más hátra mint - válaszd ki a teád, ízesítsd és adj feltétet hozzá - még ma.</p>
+    <a href="#top" class="totop" ><i class="fas fa-chevron-up"></i></a>
   </div>
+  
 </template>

@@ -1,6 +1,7 @@
 <template>
   <div class="page">
-    <h3>Gyümölcs Buborékok</h3>
+    <h3 id="top">Gyümölcs Buborékok</h3>
+    <p>"A gyöngygolócskák ízének széles skálája, ráharapva robbanak."</p>
     <div class="aromak">
     <img class="aroma" src="/images/bubik/Áfonya GYÜMÖLCS  bubiv2.png" alt="Áfonya buborék">
     <span class="circle"></span>
@@ -39,5 +40,6 @@
     <img class="aroma" src="/images/bubik/Zöld alma GYÜMÖLCS  bubiv2.png" alt="Zöld alma buborék">
     <span class="circle"></span>
     </div>
+    <a href="#top" class="totop" ><i class="fas fa-chevron-up"></i></a>
  </div>
 </template>
