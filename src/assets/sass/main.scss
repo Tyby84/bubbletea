@@ -187,7 +187,7 @@
      
   }
   .circle {
-    display: block;
+    //display: block;
     width: 165px;
     height: 165px;
     background-color: #fff;
@@ -198,4 +198,16 @@
     z-index: -1;
   }
   }
+  }
+  .fade-enter-active, .fade-leave-active {
+    transition-property: opacity;
+    transition-duration: .25s;
+  }
+  
+  .fade-enter-active {
+    transition-delay: .25s;
+  }
+  
+  .fade-enter, .fade-leave-active {
+    opacity: 0
   }

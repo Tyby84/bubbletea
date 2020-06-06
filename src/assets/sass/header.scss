@@ -6,47 +6,33 @@ header {
     background-size: cover;
     background-position: 70% 50%;
     justify-content: space-between;
-    height: 100px;
-    //overflow: hidden;
+    height: 99px;
+    border-bottom: 1px solid #fff;
     @include tablet {
       height: 90px;
-      //overflow: hidden !important;
+      
     }
     @include mobile {
-      //overflow: auto;
     }
     img {
     display: inline-block;
-    /* width: 158px;
-    margin-right: 48px;
-    margin-top: 17px;
-    transform: scale(1.4);
-    
-    clip-path: polygon(0 1%, 100% 0, 100% 70%, 0 70%); */
+    align-self: flex-start;
     height: 100px;
+    @include tablet {
+      position: absolute;
+      top: 2px;
+      right: 0;
+    }
     @include mobile {
       position: absolute;
       top: 2px;
       right: 0;
       clip-path: polygon(40% 0%, 100% 0, 100% 100%, 40% 100%);
-
     }
     }
 }
 
-.red {
-  height: 19px;
-  width: 100vw;
-  background-color: #EC1A23;
-  //z-index: 33;
-  position: absolute;
-  top: 50px;
-  //margin-top: 50px;
-  //margin-left: -1246px;
-  @include tablet {
-    display: none;
-  }
-  }
+
 
   
   

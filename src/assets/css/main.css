@@ -268,7 +268,6 @@
 }
 
 .page .aromak .circle {
-  display: block;
   width: 165px;
   height: 165px;
   background-color: #fff;
@@ -277,4 +276,20 @@
   margin-top: -175px;
   margin-left: -90px;
   z-index: -1;
+}
+
+.fade-enter-active, .fade-leave-active {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s;
+}
+
+.fade-enter-active {
+  -webkit-transition-delay: .25s;
+          transition-delay: .25s;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0;
 }

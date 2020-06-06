@@ -30,7 +30,9 @@
      <div><router-link to="/zselek">Gyümölcs Zselék</router-link></div>
     </div> 
     <div class="content">
-      <router-view></router-view> 
+      <transition name="fade">
+      <router-view></router-view>
+    </transition> 
     </div>
     </div>
    <footer>

@@ -9,7 +9,8 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 100px;
+  height: 99px;
+  border-bottom: 1px solid #fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -20,13 +21,17 @@ header {
 
 header img {
   display: inline-block;
-  /* width: 158px;
-    margin-right: 48px;
-    margin-top: 17px;
-    transform: scale(1.4);
-    
-    clip-path: polygon(0 1%, 100% 0, 100% 70%, 0 70%); */
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  header img {
+    position: absolute;
+    top: 2px;
+    right: 0;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -36,19 +41,5 @@ header img {
     right: 0;
     -webkit-clip-path: polygon(40% 0%, 100% 0, 100% 100%, 40% 100%);
             clip-path: polygon(40% 0%, 100% 0, 100% 100%, 40% 100%);
-  }
-}
-
-.red {
-  height: 19px;
-  width: 100vw;
-  background-color: #EC1A23;
-  position: absolute;
-  top: 50px;
-}
-
-@media screen and (max-width: 768px) {
-  .red {
-    display: none;
   }
 }
