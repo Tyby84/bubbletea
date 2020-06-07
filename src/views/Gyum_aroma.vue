@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <h3 id="top">Gyümölcs Aromák</h3>
-    <p>"Az édes és savanyú ízek változatos választéka, amelyeket ízlésedre formálhatod."</p>
+    <p>"Az édes és savanyú ízek változatos választéka, amelyeket ízlésedre formálhatod"</p>
     <div class="aromak">
     <img class="aroma" src="/images/aroma/Áfonya GYÜMÖLCS  Aroma-01.png" alt="Áfonya aroma">
     <span class="circle"></span>

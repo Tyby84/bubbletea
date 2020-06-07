@@ -1,7 +1,7 @@
 <template>
 <div class="page">
     <h3 id="top">Teák</h3>
-    <p>"Igazi tealevélből készűl az Igazi Tea."</p>
+    <p>"Igazi tealevélből készűl az Igazi Tea"</p>
     <div class="aromak">
             <img class="aroma" src="/images/feketetea.png" alt="Fekete Tea">
             <span class="circle"></span>
