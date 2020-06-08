@@ -8,6 +8,7 @@ header {
     justify-content: space-between;
     height: 99px;
     border-bottom: 1px solid #fff;
+    position: relative;
     @include tablet {
       height: 90px;
       
