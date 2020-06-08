@@ -16,7 +16,7 @@
     }
     @include mobile {
       flex-direction: column;
-      height: 76vh;
+      height: calc(100vh - 145px);
       
     }
   }
@@ -43,7 +43,7 @@
       // background-blend-mode: overlay;
       background-size: cover;
       background-position: 50% 55%;
-      height: 28vh;
+      height: 170px;
       padding: 5px;
       width: 100vw;
       z-index: 9;
@@ -129,7 +129,8 @@
     z-index: 99;
     @include mobile {
       width: 100vw;
-     // height: 44vh;
+      height: auto;
+      //min-height: 285px;
     }
   }
   .page {

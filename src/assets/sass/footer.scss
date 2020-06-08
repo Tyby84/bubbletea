@@ -16,6 +16,6 @@ footer {
         //padding-top: 10px;
     }
     @include mobile {
-        height: 9vh;
+        max-height: 55px;
     }
 }
