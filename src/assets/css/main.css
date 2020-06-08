@@ -4,8 +4,8 @@
 
 @media screen and (max-width: 640px) {
   #app {
-    height: auto;
-    overflow: auto;
+    height: 100%;
+    overflow: scroll;
   }
 }
 

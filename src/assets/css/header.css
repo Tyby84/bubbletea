@@ -37,7 +37,7 @@ header img {
 
 @media screen and (max-width: 640px) {
   header img {
-    position: absolute;
+    position: fixed;
     top: 2px;
     right: 0;
     -webkit-clip-path: polygon(40% 0%, 100% 0, 100% 100%, 40% 100%);
