@@ -14,6 +14,7 @@ header {
       
     }
     @include mobile {
+      height: 15vh;
     }
     img {
     display: inline-block;

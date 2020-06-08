@@ -14,6 +14,6 @@ footer {
 
 @media screen and (max-width: 640px) {
   footer {
-    height: 50px;
+    height: 9vh;
   }
 }

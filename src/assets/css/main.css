@@ -1,9 +1,12 @@
 #app {
-  height: 100%vh;
-  /* @include mobile {
-     height: 100%;
-     overflow: scroll;
-    } */
+  height: 100vh;
+}
+
+@media screen and (max-width: 640px) {
+  #app {
+    height: auto;
+    overflow: auto;
+  }
 }
 
 .main_section {
@@ -26,7 +29,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: calc(100vh - 140px);
+    height: 76vh;
   }
 }
 
@@ -64,7 +67,7 @@
     background: url("/images/welcome.JPG") no-repeat;
     background-size: cover;
     background-position: 50% 55%;
-    height: 30vh;
+    height: 28vh;
     padding: 5px;
     width: 100vw;
     z-index: 9;
@@ -164,7 +167,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 70%;
-  height: 100%;
+  height: 68vh;
   overflow-y: scroll !important;
   overflow-x: hidden;
   line-height: 1.5;

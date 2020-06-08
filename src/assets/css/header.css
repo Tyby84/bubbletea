@@ -20,6 +20,12 @@ header {
   }
 }
 
+@media screen and (max-width: 640px) {
+  header {
+    height: 15vh;
+  }
+}
+
 header img {
   display: inline-block;
   -ms-flex-item-align: start;
