@@ -1,7 +1,7 @@
 <template>
-  <div class="page">
+  <div class="page rolunk">
     <h3 id="top">Rólunk</h3>
-    <p>Büszkén mondhatjuk el Nektek, hogy immáron két éve üzemel a <br> J Koktél Bubble Tea.</p><br>
+    <p>Büszkén mondhatjuk el Nektek, <br> hogy immáron két éve üzemel<br>  a J Koktél Bubble Tea.</p><br>
     <p>Kecskeméten elsőkézből ajánljuk a Tajvan-ról származó különleges ízvilágot. <br> 
      Tea választékunk frissen van főzve, ízesítése lehet Gyümölcsös vagy Tejes - amihez színes feltétet - 
      Gyümölcs Buborékot és vagy Gyümölcs Zselét választhatsz a tökéletes ízért!</p> <br>

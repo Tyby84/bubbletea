@@ -200,6 +200,13 @@
   }
   }
   }
+  .rolunk {
+    width: 70%;
+    margin: 0 auto;
+    h3 {
+      min-width: 220px;
+    }
+  }
   .fade-enter-active, .fade-leave-active {
     transition-property: opacity;
     transition-duration: .25s;

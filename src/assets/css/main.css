@@ -279,6 +279,15 @@
   z-index: -1;
 }
 
+.rolunk {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.rolunk h3 {
+  min-width: 220px;
+}
+
 .fade-enter-active, .fade-leave-active {
   -webkit-transition-property: opacity;
   transition-property: opacity;
