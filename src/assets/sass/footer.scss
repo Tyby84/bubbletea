@@ -17,5 +17,6 @@ footer {
     }
     @include mobile {
         max-height: 55px;
+        width: max-content;
     }
 }
