@@ -1,5 +1,5 @@
 #app {
-  height: 100vh;
+  height: 100%vh;
 }
 
 @media screen and (max-width: 640px) {
@@ -41,7 +41,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 30%;
+  width: 30vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

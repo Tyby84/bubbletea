@@ -1,6 +1,6 @@
 @import 'mixin.scss';
 #app {
-    height: 100vh;
+    height: 100%vh;
     @include mobile {
      height: auto;
      overflow: auto;
@@ -23,7 +23,7 @@
   .sidenav {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 30vh;
     align-items: center;
     background: url('/images/welcome.JPG') no-repeat;
     background-size: cover;
@@ -132,7 +132,8 @@
   }
   .page {
     width: 100%;
-    scroll-behavior: smooth !important; 
+   scroll-behavior: smooth !important; 
+
     h3 {
       margin: 10px auto;
       color: rgb(247, 147, 29);

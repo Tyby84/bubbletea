@@ -22,12 +22,12 @@
     </header>
     <div class="main_section" v-on:click="clickClose()">
     <div class="sidenav">
-        
+      
      <div><router-link to="/Teak">Teák</router-link></div>
      <div><router-link to="/gyumolcsaroma">Gyümölcs Aromák</router-link></div>
      <div><router-link to="/tejesaroma">Tejes Aromák</router-link></div>
-     <div><router-link to="/gyumBubi">Gyümölcs Buborékok</router-link></div>
-     <div><router-link to="/zselek">Gyümölcs Zselék</router-link></div>
+     <div><router-link  to="/gyumBubi">Gyümölcs Buborékok</router-link></div>
+     <div><router-link  to="/zselek">Gyümölcs Zselék</router-link></div>
     </div> 
     <div class="content">
       <transition name="fade">
@@ -39,12 +39,13 @@
      <div class="social_icons">
      <a target="_blank" href="https://www.facebook.com/jkoktelbubbletea/"><img src="images/PNG/facebook.png" /></a>
      </div>
-     <p>Bubble Tea | 2020</p>
+     <p>&copy; jkoktelbubbletea | 2020</p>
      <div>
      <a target="_blank" href="https://www.instagram.com/jkoktelbubbletea/"><img src="images/PNG/instagram.png" /></a>
      </div>
    </footer>
   </div>
+
   
 </template>
 <script>

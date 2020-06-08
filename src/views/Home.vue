@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div ref="page" class="page">
     <section id="top" class="slidesec">
       <vueper-slides
       ref="myVueperSlides"

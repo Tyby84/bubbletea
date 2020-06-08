@@ -58,5 +58,10 @@ export default new Router({
       path: '/gyumBubi',
       component: GyumBubi
     }
-  ]
+  ],
+  scrollBehavior: (to, from, savedPosition) => {
+    document.getElementById('top').scrollIntoView();
+    return null;
+}
 });
+
