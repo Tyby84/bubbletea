@@ -1,12 +1,9 @@
 #app {
   height: 100%vh;
-}
-
-@media screen and (max-width: 640px) {
-  #app {
-    height: 100%;
-    overflow: scroll;
-  }
+  /* @include mobile {
+     height: 100%;
+     overflow: scroll;
+    } */
 }
 
 .main_section {
