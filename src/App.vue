@@ -74,5 +74,6 @@
 @import './assets/css/menu.css';
 @import './assets/css/slides.css';
 @import './assets/css/sections.css';
+@import './assets/css/page.css';
 
 </style>

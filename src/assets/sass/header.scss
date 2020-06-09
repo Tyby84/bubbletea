@@ -5,7 +5,7 @@ header {
     background-attachment: fixed;
     background-size: cover;
     background-position: 70% 50%;
-    justify-content: space-between;
+    justify-content: flex-end;
     height: 99px;
     border-bottom: 1px solid #fff;
     position: relative;
@@ -14,22 +14,21 @@ header {
       
     }
     @include mobile {
+      justify-content: space-between;
       height: 90px;
     }
     img {
     display: inline-block;
     align-self: flex-start;
     height: 100px;
+    margin-top: 4px;
     @include tablet {
+      margin-top: 0;
       position: absolute;
       top: 2px;
       right: 0;
     }
     @include mobile {
-      /* position: relative;
-      top: 8px;
-    right: 86px;
-    height: 100%; */
       clip-path: polygon(40% 0%, 100% 0, 100% 100%, 40% 100%);
     }
     }
