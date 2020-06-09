@@ -5,8 +5,13 @@
           box-sizing: border-box;
 }
 
-body, html {
-  overflow-y: hidden;
+html {
+  overflow: hidden;
+}
+
+body {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   font-family: 'Oswald';
 }
 
