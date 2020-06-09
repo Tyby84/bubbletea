@@ -2,7 +2,7 @@
 #app {
     height: 100vh;
     @include mobile {
-     height: auto;
+     height: 100%;
      overflow: auto;
     }
 }
@@ -16,7 +16,7 @@
     }
     @include mobile {
       flex-direction: column;
-      height: calc(100vh - 90px);
+      height: calc(100vh - 145px);
       
     }
   }
@@ -43,7 +43,7 @@
       // background-blend-mode: overlay;
       background-size: cover;
       background-position: 50% 55%;
-      height: 170px;
+      height: auto;
       padding: 5px;
       width: 100vw;
       z-index: 9;

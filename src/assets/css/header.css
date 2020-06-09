@@ -20,6 +20,12 @@ header {
   }
 }
 
+@media screen and (max-width: 640px) {
+  header {
+    height: 90px;
+  }
+}
+
 header img {
   display: inline-block;
   -ms-flex-item-align: start;
@@ -37,9 +43,10 @@ header img {
 
 @media screen and (max-width: 640px) {
   header img {
-    position: fixed;
-    top: 2px;
-    right: 0;
+    position: relative;
+    top: 8px;
+    right: 86px;
+    height: 100%;
     -webkit-clip-path: polygon(40% 0%, 100% 0, 100% 100%, 40% 100%);
             clip-path: polygon(40% 0%, 100% 0, 100% 100%, 40% 100%);
   }
