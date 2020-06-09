@@ -6,12 +6,11 @@
 }
 
 html {
-  overflow: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 body {
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
   font-family: 'Oswald';
 }
 
