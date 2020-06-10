@@ -1,11 +1,13 @@
 @import 'mixin.scss';
 
 footer {
-    height: 80px;
+    height: 81px;
+    width: 100vw;
     background-color: rgb(247, 147, 29); 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-bottom: 1px;
     img {
         //margin-right: 50px;
     }

@@ -32,3 +32,15 @@ body {
 .show {
   opacity: 1;
 }
+
+@media screen and (min-width: 1366px) {
+  .onlySm {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .onlyLg {
+    display: none;
+  }
+}

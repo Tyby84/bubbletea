@@ -27,3 +27,13 @@
 .show {
     opacity: 1;
   }
+  .onlySm {
+    @media screen and (min-width:1366px) {
+      display: none;
+    }
+  }
+  .onlyLg {
+    @media screen and (max-width:1366px) {
+      display: none;
+    }
+  }

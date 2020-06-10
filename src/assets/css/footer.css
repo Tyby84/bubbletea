@@ -1,5 +1,6 @@
 footer {
-  height: 80px;
+  height: 81px;
+  width: 100vw;
   background-color: #f7931d;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10,6 +11,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 1px;
 }
 
 @media screen and (max-width: 640px) {

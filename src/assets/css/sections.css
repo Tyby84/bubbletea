@@ -65,3 +65,35 @@
   -webkit-clip-path: polygon(25% 10%, 100% 10%, 75% 90%, 0 90%);
           clip-path: polygon(25% 10%, 100% 10%, 75% 90%, 0 90%);
 }
+
+.onlyLg {
+  position: relative;
+}
+
+.onlyLg .cetli {
+  position: absolute;
+  top: 0;
+  right: 70px;
+}
+
+.onlyLg .cetli2 {
+  position: absolute;
+  top: 750px;
+  right: 0;
+}
+
+.onlyLg .cetli3 {
+  position: absolute;
+  top: 1685px;
+  right: 430px;
+}
+
+.onlyLg .alsoPic {
+  margin-top: -215px;
+  margin-bottom: -40px;
+}
+
+.onlyLg .cetli4 {
+  margin-top: -590px;
+  width: 67%;
+}

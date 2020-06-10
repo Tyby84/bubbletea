@@ -75,8 +75,13 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-left: 25%;
-  padding-right: 25%;
+}
+
+@media screen and (max-width: 1365px) {
+  .page .aromak {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -86,26 +91,54 @@
 }
 
 .page .aromak .aroma {
-  width: 300px;
+  width: 450px;
   display: inline-block;
   z-index: 2;
+  margin: 50px;
+}
+
+.page .aromak div {
+  position: relative;
 }
 
 .page .aromak .circle {
-  width: 165px;
-  height: 165px;
+  display: inline-block;
+  width: 240px;
+  height: 240px;
   background-color: #fff;
   border-radius: 50%;
-  margin-top: -175px;
-  margin-left: -90px;
-  z-index: 1;
+  position: absolute;
+  top: 90px;
+  left: 76px;
+  z-index: -1;
 }
 
-@media screen and (min-width: 1031px) {
+@media screen and (max-width: 1365px) {
   .page .aromak .circle {
-    margin-top: 25px;
-    margin-left: -280px;
+    width: 165px;
+    height: 165px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: -175px;
+    margin-left: -90px;
+    z-index: 1;
   }
+}
+
+.page .fade-enter-active, .page .fade-leave-active {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s;
+}
+
+.page .fade-enter-active {
+  -webkit-transition-delay: .25s;
+          transition-delay: .25s;
+}
+
+.page .fade-enter, .page .fade-leave-active {
+  opacity: 0;
 }
 
 .rolunk {
@@ -115,20 +148,4 @@
 
 .rolunk h3 {
   min-width: 220px;
-}
-
-.fade-enter-active, .fade-leave-active {
-  -webkit-transition-property: opacity;
-  transition-property: opacity;
-  -webkit-transition-duration: .25s;
-          transition-duration: .25s;
-}
-
-.fade-enter-active {
-  -webkit-transition-delay: .25s;
-          transition-delay: .25s;
-}
-
-.fade-enter, .fade-leave-active {
-  opacity: 0;
 }

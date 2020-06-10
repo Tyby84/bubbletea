@@ -1,6 +1,7 @@
 <template>
-  <div ref="page" class="page">
-    <section id="top" class="slidesec">
+  <div class="page">
+    <div class="onlySm">
+      <section id="top" class="slidesec">
       <vueper-slides
       ref="myVueperSlides"
       autoplay
@@ -44,6 +45,18 @@
   </section>
   <a href="#top" class="totop" ><i class="fas fa-chevron-up"></i></a>
   
+    </div>
+    <div class="onlyLg">
+      <img class="cetli" src="/images/section/Cetli1.png" width="65%" alt="">
+      <img src="/images/homeLg/felso.png" width="100%" alt="">
+
+      <img class="cetli2" src="/images/section/cetli3.png" width="30%" alt="">
+      <img src="/images/homeLg/kozepso.png" width="100%" alt="">
+      <img class="cetli3" src="/images/section/Cetli2.png" alt="">
+
+      <img class="alsoPic" src="/images/homeLg/also.png" width="100%" alt="">
+      <img class="cetli4" src="/images/section/Cetli4.png" width="100%" alt="">
+    </div>
   </div>
 </template>
 <script>
