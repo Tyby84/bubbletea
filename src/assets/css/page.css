@@ -75,8 +75,8 @@
 }
 
 @media screen and (min-width: 1366px) {
-  .page .contact .contactImg {
-    width: 50%;
+  .page .contactImg {
+    width: 50% !important;
     margin: 0 auto;
     display: block;
   }

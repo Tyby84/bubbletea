@@ -51,15 +51,16 @@
         font-size: 18px;
       }
     }
-    .contactImg {
-      @include desktop {
-      width: 50%;
-      margin: 0 auto;
-      display: block;
-      }
-      @include tablet {
-        //width: 100%;
-      }
+    
+  }
+  .contactImg {
+    @include desktop {
+    width: 50% !important;
+    margin: 0 auto;
+    display: block;
+    }
+    @include tablet {
+      //width: 100%;
     }
   }
   .aromak {
