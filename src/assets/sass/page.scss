@@ -41,10 +41,25 @@
     .contact {
       text-decoration: none !important;
       h4 {
+        font-size: 30px;
+        margin-top: -140px;
+        margin-bottom: 10px;
+        text-align: center;
+        @include tablet {
         color: rgb(158,30,98);
-      text-align: center;
-      margin-bottom: 10px;
-      margin-top: -80px;
+        margin-top: -80px;
+        font-size: 18px;
+      }
+    }
+    .contactImg {
+      @include desktop {
+      width: 50%;
+      margin: 0 auto;
+      display: block;
+      }
+      @include tablet {
+        //width: 100%;
+      }
     }
   }
   .aromak {
@@ -60,10 +75,13 @@
     }
   .aroma {
     width: 450px;
-    display: inline-block;
+      margin: 50px;
+      display: inline-block;
     z-index: 2;
-    margin: 50px;
-
+    @include tablet {
+      width: 300px;
+    }
+    
   }
   div {
     position: relative;
@@ -79,13 +97,13 @@
      left: 76px;
      z-index: -1;
      @include tablet {
-      width: 165px;
-      height: 165px;
-      background-color: #fff;
-      border-radius: 50%;
-      margin-top: -175px;
-      margin-left: -90px;
-      z-index: 1;
+      top: 75px;
+    left: 65px;
+    width: 165px;
+    height: 165px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: -1;
      }
     }
   }

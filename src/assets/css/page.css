@@ -60,10 +60,26 @@
 }
 
 .page .contact h4 {
-  color: #9e1e62;
-  text-align: center;
+  font-size: 30px;
+  margin-top: -140px;
   margin-bottom: 10px;
-  margin-top: -80px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1365px) {
+  .page .contact h4 {
+    color: #9e1e62;
+    margin-top: -80px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .page .contact .contactImg {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 .page .aromak {
@@ -92,9 +108,15 @@
 
 .page .aromak .aroma {
   width: 450px;
+  margin: 50px;
   display: inline-block;
   z-index: 2;
-  margin: 50px;
+}
+
+@media screen and (max-width: 1365px) {
+  .page .aromak .aroma {
+    width: 300px;
+  }
 }
 
 .page .aromak div {
@@ -115,13 +137,13 @@
 
 @media screen and (max-width: 1365px) {
   .page .aromak .circle {
+    top: 75px;
+    left: 65px;
     width: 165px;
     height: 165px;
     background-color: #fff;
     border-radius: 50%;
-    margin-top: -175px;
-    margin-left: -90px;
-    z-index: 1;
+    z-index: -1;
   }
 }
 
