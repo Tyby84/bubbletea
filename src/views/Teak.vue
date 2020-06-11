@@ -1,5 +1,5 @@
 <template>
-<div class="page">
+<div class="page" style="text-align:center;">
     <h3 id="top">Teák</h3>
     <p>"Igazi tealevélből készűl az Igazi Tea"</p>
     <div class="aromak">

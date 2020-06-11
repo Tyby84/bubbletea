@@ -1,10 +1,10 @@
 @mixin desktop {
-    @media screen and (min-width: 1366px) {
+    @media screen and (min-width: 1100px) {
         @content;
     }
 }
 @mixin tablet {
-    @media screen and (max-width:1365px) {
+    @media screen and (max-width:1099px) {
         @content;
     }
 }
@@ -14,3 +14,12 @@
         @content;
     }
 }
+
+@mixin heightFix {
+    @media screen and (max-height:640px) and (min-width:700px) {
+        @content;
+    }
+}
+
+/* A main section es a side nav magassaga */
+$mainHeight: calc(100vh - 145px);

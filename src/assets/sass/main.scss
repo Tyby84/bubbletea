@@ -19,6 +19,9 @@
       height: calc(100vh - 145px);
       
     }
+    @include heightFix {
+      height: $mainHeight;
+    }
   }
    
   .sidenav {
@@ -28,7 +31,7 @@
     align-items: center;
     background: url('/images/welcome.JPG') no-repeat;
     background-size: cover;
-    background-position: 70% 50%;
+    background-position: 33% 50%;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     height: calc(100vh - 180px);
@@ -51,6 +54,10 @@
       border: 1px solid #fff;
       flex-wrap: wrap;
       justify-content: center;
+    }
+    @include heightFix {
+      height: $mainHeight;
+      background-position: 40% 50%;
     }
     div {
       &:first-of-type {
@@ -83,10 +90,9 @@
         min-height: 45px;
         margin-bottom: 10px;
       }
-
+       
       a {
         width: 180px;
-        //width: 120px;
         text-decoration: none;
         font-size: 19px;
         font-weight: bold;
@@ -94,16 +100,18 @@
         padding: 20px;
         @include mobile {
           width: 150px;
-          //width: auto;
           padding: 10px 5px;
           font-size: 16px;
-          //letter-spacing: 1px;
         }
         @media screen and (max-width: 375px) {
           width: 130px;
           padding: 10px 1px;
           font-size: 14px;
-          //letter-spacing: 0;
+        }
+        @include heightFix {
+        font-size: 17px;
+        padding: 8px;
+        
         }
       }
       

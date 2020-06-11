@@ -1,3 +1,4 @@
+/* A main section es a side nav magassaga */
 #app {
   height: 100vh;
 }
@@ -17,7 +18,7 @@
   height: calc(100vh - 180px);
 }
 
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1099px) {
   .main_section {
     height: calc(100vh - 170px);
   }
@@ -29,6 +30,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: calc(100vh - 145px);
+  }
+}
+
+@media screen and (max-height: 640px) and (min-width: 700px) {
+  .main_section {
     height: calc(100vh - 145px);
   }
 }
@@ -47,14 +54,14 @@
           align-items: center;
   background: url("/images/welcome.JPG") no-repeat;
   background-size: cover;
-  background-position: 70% 50%;
+  background-position: 33% 50%;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
   height: calc(100vh - 180px);
   /*sidenav div end*/
 }
 
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1099px) {
   .sidenav {
     background-size: cover;
     padding: 20px;
@@ -81,6 +88,13 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media screen and (max-height: 640px) and (min-width: 700px) {
+  .sidenav {
+    height: calc(100vh - 145px);
+    background-position: 40% 50%;
   }
 }
 
@@ -118,7 +132,7 @@
   background-color: rgba(255, 255, 255, 0.85);
 }
 
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1099px) {
   .sidenav div {
     margin-right: 10px;
     margin-left: 10px;
@@ -155,6 +169,13 @@
     width: 130px;
     padding: 10px 1px;
     font-size: 14px;
+  }
+}
+
+@media screen and (max-height: 640px) and (min-width: 700px) {
+  .sidenav div a {
+    font-size: 17px;
+    padding: 8px;
   }
 }
 

@@ -40,12 +40,12 @@
 }
 
 .navigation {
-  /* @include tablet {
+  /* @media screen and(max-width: 1366px) {
         display: none;
     } */
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1100px) {
   .navigation {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -57,7 +57,7 @@
   }
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1099px) {
   .navigation {
     display: none;
   }
@@ -74,10 +74,12 @@
   padding: 0 6px 2px 6px;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-  /* @include mobile {
-        margin: 20px 25px 10px 0px;
-        font-size: 19px;
-      } */
+}
+
+@media screen and (max-height: 640px) and (min-width: 700px) {
+  .navigation a {
+    font-size: 18px;
+  }
 }
 
 .navigation a:hover {
@@ -105,7 +107,7 @@
           animation-fill-mode: backwards;
 }
 
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1099px) {
   .menu-bar {
     display: block;
     top: 37px;
