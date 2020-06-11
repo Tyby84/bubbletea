@@ -147,6 +147,22 @@
   }
 }
 
+.page .aromak .circle.teakor {
+  width: 290px;
+  height: 290px;
+  top: 100px;
+  left: 55px;
+}
+
+@media screen and (max-width: 1365px) {
+  .page .aromak .circle.teakor {
+    top: 80px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+  }
+}
+
 .page .fade-enter-active, .page .fade-leave-active {
   -webkit-transition-property: opacity;
   transition-property: opacity;

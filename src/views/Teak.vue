@@ -5,11 +5,11 @@
     <div class="aromak">
             <div>
                 <img class="aroma" src="/images/feketetea.png" alt="Fekete Tea">
-                <span class="circle"></span>
+                <span class="circle teakor"></span>
             </div>
             <div>
-                <img class="aroma" src="/images/feketetea.png" alt="Fekete Tea">
-                <span class="circle"></span>
+                <img class="aroma" src="/images/zoldtea.png" alt="Zöld Tea">
+                <span class="circle teakor"></span>
             </div>
     </div>
     <a href="#top" class="totop onlySm" ><i class="fas fa-chevron-up"></i></a>

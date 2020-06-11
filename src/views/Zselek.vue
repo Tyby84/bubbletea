@@ -8,19 +8,19 @@
         <span class="circle"></span>
       </div>
       <div>
-        <img  class="aroma" src="images/zselek/Áfonya GYÜMÖLCS  zsele-01.png">
+        <img  class="aroma" src="images/zselek/Ananász GYÜMÖLCS  zsele-01.png">
         <span class="circle"></span>
       </div>
-      <div>
-        <img  class="aroma" src="images/zselek/Áfonya GYÜMÖLCS  zsele-01.png">
+     <div>
+        <img  class="aroma" src="images/zselek/Licsi GYÜMÖLCS  zsele-01.png">
         <span class="circle"></span>
-      </div>
-      <div>
-        <img  class="aroma" src="images/zselek/Szamóca GYÜMÖLCS  zsele-01.png">
-        <span class="circle"></span>
-      </div>
+     </div>
       <div>
         <img  class="aroma" src="images/zselek/Szamóca GYÜMÖLCS  zsele-01.png">
+        <span class="circle"></span>
+      </div>
+      <div>
+        <img  class="aroma" src="images/zselek/Zold Alma GYÜMÖLCS  zsele-01.png">
         <span class="circle"></span>
       </div>
     </div>

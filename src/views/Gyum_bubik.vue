@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <h3 id="top">Gyümölcs Buborékok</h3>
-    <p>"A gyöngygolyócskák ízének széles skálája, ráharapva robbanak"</p>
+    <p>"A gyöngygolyócskák ízének széles skálája, <br>ráharapva robbanak"</p>
     <div class="aromak">
     <div>
       <img class="aroma" src="/images/bubik/Áfonya GYÜMÖLCS  bubiv2.png" alt="Áfonya buborék">

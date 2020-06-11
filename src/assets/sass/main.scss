@@ -128,7 +128,7 @@
     z-index: 99;
     @include mobile {
       width: 100vw;
-      height: auto;
+      height: 100%;
       //min-height: 285px;
     }
   }
