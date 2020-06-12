@@ -124,8 +124,10 @@
       z-index: -1;
      }
      @include mobile {
-      top: 46px;
-    left: 45px;
+      top: 65px;
+    left: 62px;
+    width: 130px;
+    height: 130px;
      }
     }
     .circle.teakor {
@@ -146,8 +148,10 @@
         height: 200px;
       }
       @include mobile {
-        top: 40px;
-        left: 40px;
+        top: 70px;
+        left: 45px;
+        width: 160px;
+        height: 160px;
        }
     }
   }
