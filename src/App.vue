@@ -54,9 +54,11 @@
         clicked: false
       }
       },
-
       created() {
         this.clickClose;
+        /* if (location.hash) {
+  location.replace(location.hash.replace('#', ''))
+} */
       },
       methods: {
       clickClose() {
@@ -75,5 +77,4 @@
 @import './assets/css/slides.css';
 @import './assets/css/sections.css';
 @import './assets/css/page.css';
-
 </style>

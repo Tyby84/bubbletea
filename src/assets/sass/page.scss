@@ -91,7 +91,7 @@
       width: 300px;
     }
     @include mobile {
-      width: 90%;
+      width: 100%;
     }
     
   }
@@ -124,7 +124,7 @@
       z-index: -1;
      }
      @include mobile {
-      top: 50px;
+      top: 40px;
       left: 40px;
      }
     }
@@ -152,18 +152,6 @@
     }
   }
    
-  .fade-enter-active, .fade-leave-active {
-    transition-property: opacity;
-    transition-duration: .25s;
-  }
-  
-  .fade-enter-active {
-    transition-delay: .25s;
-  }
-  
-  .fade-enter, .fade-leave-active {
-    opacity: 0
-  }
   }
   .rolunk {
     width: 70%;

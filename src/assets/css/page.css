@@ -215,22 +215,6 @@
   }
 }
 
-.page .fade-enter-active, .page .fade-leave-active {
-  -webkit-transition-property: opacity;
-  transition-property: opacity;
-  -webkit-transition-duration: .25s;
-          transition-duration: .25s;
-}
-
-.page .fade-enter-active {
-  -webkit-transition-delay: .25s;
-          transition-delay: .25s;
-}
-
-.page .fade-enter, .page .fade-leave-active {
-  opacity: 0;
-}
-
 .rolunk {
   width: 70%;
   margin: 0 auto;
