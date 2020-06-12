@@ -1,7 +1,6 @@
 /* A main section es a side nav magassaga */
 .page {
   width: 100%;
-  scroll-behavior: smooth !important;
 }
 
 .page h3 {
@@ -67,6 +66,13 @@
   text-align: center;
 }
 
+@media screen and (max-height: 640px) and (min-width: 700px) {
+  .page .contact h4 {
+    font-size: 25px;
+    margin-top: -110px;
+  }
+}
+
 @media screen and (max-width: 1099px) {
   .page .contact h4 {
     color: #9e1e62;
@@ -127,6 +133,12 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  .page .aromak .aroma {
+    width: 90%;
+  }
+}
+
 .page .aromak div {
   position: relative;
 }
@@ -164,6 +176,13 @@
   }
 }
 
+@media screen and (max-width: 640px) {
+  .page .aromak .circle {
+    top: 50px;
+    left: 40px;
+  }
+}
+
 .page .aromak .circle.teakor {
   width: 290px;
   height: 290px;
@@ -186,6 +205,13 @@
     left: 50px;
     width: 200px;
     height: 200px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .page .aromak .circle.teakor {
+    top: 40px;
+    left: 40px;
   }
 }
 
