@@ -136,6 +136,8 @@
 @media screen and (max-width: 640px) {
   .page .aromak .aroma {
     width: 100%;
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
   }
 }
 
@@ -178,10 +180,10 @@
 
 @media screen and (max-width: 640px) {
   .page .aromak .circle {
-    top: 65px;
-    left: 62px;
-    width: 130px;
-    height: 130px;
+    top: 50px;
+    left: 28px;
+    width: 155px;
+    height: 155px;
   }
 }
 
@@ -212,10 +214,10 @@
 
 @media screen and (max-width: 640px) {
   .page .aromak .circle.teakor {
-    top: 70px;
-    left: 45px;
-    width: 160px;
-    height: 160px;
+    top: 75px;
+    left: 20px;
+    width: 190px;
+    height: 190px;
   }
 }
 

@@ -92,8 +92,9 @@
     }
     @include mobile {
       width: 100%;
+      transform: scale(1.4);
     }
-    
+     
   }
   div {
     position: relative;
@@ -124,10 +125,10 @@
       z-index: -1;
      }
      @include mobile {
-      top: 65px;
-    left: 62px;
-    width: 130px;
-    height: 130px;
+      top: 50px;
+    left: 28px;
+    width: 155px;
+    height: 155px;
      }
     }
     .circle.teakor {
@@ -148,10 +149,10 @@
         height: 200px;
       }
       @include mobile {
-        top: 70px;
-        left: 45px;
-        width: 160px;
-        height: 160px;
+        top: 75px;
+    left: 20px;
+    width: 190px;
+    height: 190px;
        }
     }
   }
