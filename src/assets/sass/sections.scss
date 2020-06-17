@@ -66,14 +66,15 @@
 .onlyLg {
     position: relative;
     .felsojobb {
-        float: right;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
     .felsoKozep {
-            margin-top: 145px;
-            margin-left: 360px;
-       
+        margin-top: 67px;
+        margin-left: 425px;
         @media screen and (min-width:1100px) and (max-width:1270px) {
-            margin-top: -205px;
+            margin-top: 0px;
             margin-left: 300px;
             }
        @media screen and (min-width:1280px) and (max-height:800px) {
@@ -94,13 +95,14 @@
     }
     .balfelso {
         position: absolute;
-        top: 160px;
+        top: 45px;
         left: 0;
     }
     .cetli {
     position: absolute;
     top: 0;
     left: 0;
+    width: 50%;
     }
     .cetli2 {
         position: absolute;
@@ -118,9 +120,9 @@
         top: 1355px;
         left: 295px;
         @media screen and (min-width:1100px) and (max-width:1270px) {
-        top: 880px;
-        left: 200px;
-        width: 20%;
+            top: 727px;
+            left: 200px;
+            width: 20%;
         }
         @media screen and (min-width:1280px) and (max-height:800px) {
         width: 20%;
@@ -139,7 +141,7 @@
         margin-top: -590px;
         width: 67%;
         @media screen and (min-width:1100px) and (max-width:1270px) {
-        width: 50%;
+            width: 45%;
         margin-bottom: 20px;
         }
     }

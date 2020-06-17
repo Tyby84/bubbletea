@@ -72,17 +72,19 @@
 }
 
 .onlyLg .felsojobb {
-  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .onlyLg .felsoKozep {
-  margin-top: 145px;
-  margin-left: 360px;
+  margin-top: 67px;
+  margin-left: 425px;
 }
 
 @media screen and (min-width: 1100px) and (max-width: 1270px) {
   .onlyLg .felsoKozep {
-    margin-top: -205px;
+    margin-top: 0px;
     margin-left: 300px;
   }
 }
@@ -113,7 +115,7 @@
 
 .onlyLg .balfelso {
   position: absolute;
-  top: 160px;
+  top: 45px;
   left: 0;
 }
 
@@ -121,6 +123,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  width: 50%;
 }
 
 .onlyLg .cetli2 {
@@ -149,7 +152,7 @@
 
 @media screen and (min-width: 1100px) and (max-width: 1270px) {
   .onlyLg .cetli3 {
-    top: 880px;
+    top: 727px;
     left: 200px;
     width: 20%;
   }
@@ -181,7 +184,7 @@
 
 @media screen and (min-width: 1100px) and (max-width: 1270px) {
   .onlyLg .cetli4 {
-    width: 50%;
+    width: 45%;
     margin-bottom: 20px;
   }
 }

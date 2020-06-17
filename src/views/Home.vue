@@ -47,11 +47,12 @@
   
     </div>
     <div class="onlyLg">
-      <img class="cetli" src="/images/section/Cetli1.png" width="65%" alt="">
-      <img class="felsojobb" src="/images/homeLg/rsz_felso_jobb_foto.png" width="20%" alt="">
-      
-      <img src="/images/homeLg/rsz_felso_bal_foto.png" class="balfelso" width="20%" alt="">
+      <img class="cetli" src="/images/section/Cetli1.png" width="65%" alt=""> 
       <img src="/images/homeLg/rsz_felso_kozep_foto.png" class="felsoKozep" width="50%" alt="">
+      <img class="felsojobb" src="/images/homeLg/rsz_felso_jobb_foto.png" width="27%" alt="">
+      
+      <img src="/images/homeLg/rsz_felso_bal_foto.png" class="balfelso" width="27%" alt="">
+      
      
       <img class="cetli2" src="/images/section/cetli3.png" width="20%" alt="">
       <img src="/images/homeLg/rsz_kozepso_hosszu_foto.png" class="kozephosszu" alt="">
