@@ -94,10 +94,11 @@
         width: 180px;
         text-decoration: none;
         font-size: 19px;
-        font-weight: bold;
+        font-weight: normal;
         color: rgb(49, 49, 49);
         padding: 20px;
         @include mobile {
+          font-weight: bold;
           width: 150px;
           padding: 10px 5px;
           font-size: 16px;
@@ -108,7 +109,7 @@
           font-size: 14px;
         }
         @include heightFix {
-          font-weight: normal;
+          
         font-size: 18px;
         padding: 8px;
         
