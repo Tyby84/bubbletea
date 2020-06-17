@@ -13,6 +13,12 @@
          <router-link to="/menu"><i class="fas fa-book-open"></i> Menü</router-link>
       </nav>
       <nav class="navigation">
+        <div class="topsoc">
+        <a target="_blank" href="https://www.facebook.com/jkoktelbubbletea/"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href="https://www.instagram.com/jkoktelbubbletea/"><i class="fab fa-instagram"></i></a>
+        <a class="contact" target="_blank" href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x4743db8da860d687:0xe6555099849f565b?utm_source=mstt_1">
+<i class="fas fa-map-marked-alt"></i></a>
+        </div>
          <router-link to="/">Home</router-link> 
          <router-link to="/about">Rólunk</router-link>
          <router-link to="/contact">Kapcsolat</router-link>

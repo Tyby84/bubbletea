@@ -53,3 +53,26 @@ header img {
             clip-path: polygon(40% 0%, 100% 0, 100% 100%, 40% 100%);
   }
 }
+
+header .topsoc {
+  position: absolute;
+  left: 115px;
+}
+
+@media screen and (max-height: 640px) and (min-width: 700px) {
+  header .topsoc {
+    left: 35px;
+  }
+}
+
+header .topsoc a {
+  background: none;
+  font-size: 30px;
+}
+
+@media screen and (max-height: 640px) and (min-width: 700px) {
+  header .topsoc a {
+    margin: 30px 5px 10px 0px;
+    font-size: 23px;
+  }
+}

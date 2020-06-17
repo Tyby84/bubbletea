@@ -58,6 +58,12 @@
   }
 }
 
+@media screen and (max-height: 640px) and (min-width: 700px) {
+  .navigation {
+    margin-top: 5px;
+  }
+}
+
 @media screen and (max-width: 1099px) {
   .navigation {
     display: none;

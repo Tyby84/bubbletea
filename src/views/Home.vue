@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div id="top" class="page">
     <div class="onlySm">
       <section id="top" class="slidesec">
       <vueper-slides
@@ -48,14 +48,18 @@
     </div>
     <div class="onlyLg">
       <img class="cetli" src="/images/section/Cetli1.png" width="65%" alt="">
-      <img src="/images/homeLg/felso.png" width="100%" alt="">
-
-      <img class="cetli2" src="/images/section/cetli3.png" width="30%" alt="">
-      <img src="/images/homeLg/kozepso.png" width="100%" alt="">
+      <img class="felsojobb" src="/images/homeLg/rsz_felso_jobb_foto.png" width="20%" alt="">
+      
+      <img src="/images/homeLg/rsz_felso_bal_foto.png" class="balfelso" width="20%" alt="">
+      <img src="/images/homeLg/rsz_felso_kozep_foto.png" class="felsoKozep" width="50%" alt="">
+     
+      <img class="cetli2" src="/images/section/cetli3.png" width="20%" alt="">
+      <img src="/images/homeLg/rsz_kozepso_hosszu_foto.png" class="kozephosszu" alt="">
       <img class="cetli3" src="/images/section/Cetli2.png" alt="">
 
       <img class="alsoPic" src="/images/homeLg/also.png" width="100%" alt="">
       <img class="cetli4" src="/images/section/Cetli4.png" width="100%" alt="">
+      <a href="#top" class="totop" ><i class="fas fa-chevron-up"></i></a>
     </div>
   </div>
 </template>
