@@ -95,7 +95,7 @@
 
 @media screen and (min-width: 1100px) {
   .page .contactImg {
-    width: 50% !important;
+    width: 55% !important;
     margin: 0 auto;
     display: block;
   }
@@ -232,6 +232,12 @@
     left: 20px;
     width: 190px;
     height: 190px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .page br {
+    display: none;
   }
 }
 
