@@ -3,6 +3,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background: url("/images/pageBg.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: 70% 50%;
@@ -78,4 +79,5 @@ header .topsoc a {
 
 header .topsoc a:hover {
   background: #222;
+  color: #fff;
 }

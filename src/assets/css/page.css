@@ -27,6 +27,12 @@
   }
 }
 
+@media screen and (max-height: 640px) and (min-width: 700px) {
+  .page p {
+    font-size: 22px;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .page p {
     font-size: 19px;
@@ -43,6 +49,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.page .menupic {
+  width: 70%;
+  margin-top: -60px;
 }
 
 .page hr {
@@ -69,8 +80,8 @@
 
 @media screen and (max-height: 640px) and (min-width: 700px) {
   .page .contact h4 {
-    font-size: 25px;
-    margin-top: -110px;
+    font-size: 23px;
+    margin-top: -100px;
   }
 }
 
@@ -123,6 +134,8 @@
 
 @media screen and (max-height: 640px) and (min-width: 700px) {
   .page .aromak .aroma {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
     width: 245px;
     margin: 25px;
   }
@@ -163,7 +176,7 @@
     width: 165px;
     height: 165px;
     top: 25px;
-    left: 25px;
+    left: 20px;
   }
 }
 
@@ -229,4 +242,11 @@
 
 .rolunk h3 {
   min-width: 220px;
+}
+
+@media screen and (max-height: 640px) and (min-width: 700px) {
+  .teak .aroma {
+    -webkit-transform: scale(1) !important;
+            transform: scale(1) !important;
+  }
 }

@@ -15,12 +15,18 @@
   display: -ms-flexbox;
   display: flex;
   width: 100vw;
-  height: calc(100vh - 180px);
+  height: calc(100vh - 133px);
 }
 
 @media screen and (max-width: 1099px) {
   .main_section {
-    height: calc(100vh - 170px);
+    height: calc(100vh - 124px);
+  }
+}
+
+@media screen and (max-height: 640px) and (min-width: 700px) {
+  .main_section {
+    height: calc(100vh - 124px);
   }
 }
 
@@ -30,13 +36,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: calc(100vh - 145px);
-  }
-}
-
-@media screen and (max-height: 640px) and (min-width: 700px) {
-  .main_section {
-    height: calc(100vh - 133px);
+    height: calc(100vh - 124px);
   }
 }
 
@@ -67,6 +67,7 @@
     background-size: cover;
     padding: 20px;
     height: calc(100vh - 170px);
+    width: 30%;
   }
 }
 
@@ -94,7 +95,7 @@
 
 @media screen and (max-height: 640px) and (min-width: 700px) {
   .sidenav {
-    background-position: 26% 50%;
+    background-position: 55% 50%;
     width: 22%;
   }
 }
@@ -177,12 +178,15 @@
 
 @media screen and (max-height: 640px) and (min-width: 700px) {
   .sidenav div a {
+    width: auto;
+    font-weight: bold;
     font-size: 18px;
     padding: 8px;
   }
 }
 
 .content {
+  background: url("/images/pageBg.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: 70% 50%;
@@ -197,6 +201,12 @@
   color: #fff;
   font-size: 20px;
   z-index: 99;
+}
+
+@media screen and (max-width: 1099px) {
+  .content {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 640px) {

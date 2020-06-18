@@ -10,17 +10,18 @@
 .main_section {
     display: flex;
     width: 100vw;
-    height: calc(100vh - 180px);
+    height: calc(100vh - 133px);
     @include tablet {
-      height: calc(100vh - 170px);
+      height: calc(100vh - 124px);
+    }
+    
+    @include heightFix {
+      height: calc(100vh - 124px);
     }
     @include mobile {
       flex-direction: column;
-      height: calc(100vh - 145px);
+      height: calc(100vh - 124px);
       
-    }
-    @include heightFix {
-      height: calc(100vh - 133px);
     }
   }
     
@@ -40,6 +41,7 @@
       background-size: cover;
       padding: 20px;
       height: calc(100vh - 170px);
+      width: 30%;
     }
     @include mobile {
       background: url('/images/welcome.JPG') no-repeat;
@@ -56,7 +58,7 @@
     }
     @include heightFix {
       //height: calc(100vh - 133px);
-      background-position: 26% 50%;
+      background-position: 55% 50%;
       width: 22%;
     }
     div {
@@ -111,7 +113,8 @@
           font-size: 14px;
         }
         @include heightFix {
-          
+        width: auto;
+        font-weight: bold;
         font-size: 18px;
         padding: 8px;
         
@@ -124,7 +127,7 @@
     }
   }
   .content {
-    //background: url('/images/pageBg.jpg') no-repeat;
+    background: url('/images/pageBg.jpg') no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 70% 50%;
@@ -137,6 +140,9 @@
     color: #fff;
     font-size: 20px;
     z-index: 99;
+    @include tablet {
+      width: 70%;
+    }
     @include mobile {
       width: 100vw;
       height: 100%;
