@@ -1,27 +1,29 @@
 @import 'mixin.scss';
 
 footer {
-    height: 81px;
+    //height: 81px;
     width: 100vw;
     background-color: rgb(247, 147, 29); 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-bottom: 1px;
-    img {
-        //margin-right: 50px;
-    }
-    .social_icons {
-        //padding-bottom: 10px;
-    }
+    padding: 5px;
+    //padding-bottom: 1px;
+   
     p {
         //padding-top: 10px;
     }
     @include mobile {
-        max-height: 55px;
+        //max-height: 55px;
         //width: max-content;
     }
     @include heightFix {
-        height: 55px;
+        //height: 55px;
     }
+
 }
+.navbar.navbar--hidden {
+    // box-shadow: none;
+    // transform: translate3d(0, -100%, 0);
+    display: none;
+  }

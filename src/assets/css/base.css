@@ -6,6 +6,7 @@
 }
 
 html {
+  background: url("/images/pageBg.jpg") no-repeat;
   overflow-y: auto;
   overflow-x: hidden;
 }

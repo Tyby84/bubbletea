@@ -42,13 +42,9 @@
     </div>
     </div>
    <footer>
-     <div class="social_icons">
-     <a target="_blank" href="https://www.facebook.com/jkoktelbubbletea/"><img src="images/PNG/facebook.png" /></a>
-     </div>
+     
      <p>&copy; jkoktelbubbletea | 2020</p>
-     <div>
-     <a target="_blank" href="https://www.instagram.com/jkoktelbubbletea/"><img src="images/PNG/instagram.png" /></a>
-     </div>
+     
    </footer>
   </div>
   
@@ -60,8 +56,9 @@
         clicked: false
       }
       },
-      created() {
+      mounted() {
         this.clickClose;
+        this.onscroll;
         /* if (location.hash) {
   location.replace(location.hash.replace('#', ''))
 } */
@@ -69,6 +66,10 @@
       methods: {
       clickClose() {
         this.clicked = false;
+      },
+      onscroll() {
+        let oldal = document.getElementsByClassName('page');
+        console.log(oldal);
       }
       }
   }

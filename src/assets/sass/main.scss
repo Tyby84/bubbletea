@@ -20,10 +20,10 @@
       
     }
     @include heightFix {
-      height: $mainHeight;
+      height: calc(100vh - 133px);
     }
   }
-   
+    
   .sidenav {
     display: flex;
     flex-direction: column;
@@ -35,6 +35,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     height: calc(100vh - 180px);
+    border: 1px solid #fff;
     @include tablet {
       background-size: cover;
       padding: 20px;
@@ -54,8 +55,9 @@
       justify-content: center;
     }
     @include heightFix {
-      height: $mainHeight;
-      background-position: 40% 50%;
+      //height: calc(100vh - 133px);
+      background-position: 26% 50%;
+      width: 22%;
     }
     div {
       &:first-of-type {
@@ -122,7 +124,7 @@
     }
   }
   .content {
-    background: url('/images/pageBg.jpg') no-repeat;
+    //background: url('/images/pageBg.jpg') no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 70% 50%;
