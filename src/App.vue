@@ -46,6 +46,15 @@
      <p>&copy; jkoktelbubbletea | 2020</p>
      
    </footer>
+   <div class="footer">
+     <div class="social_icons">
+     <img src="images/PNG/facebook.png" />
+     </div>
+     <p>&copy; jkoktelbubbletea | 2020</p>
+     <div>
+     <img src="images/PNG/instagram.png" />
+     </div>
+   </div>
   </div>
   
 </template>

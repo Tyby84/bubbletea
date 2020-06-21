@@ -1,6 +1,11 @@
 /* A main section es a side nav magassaga */
 .page {
   width: 100%;
+  /*  br {
+     @media screen and (min-width:1100px) {
+       display: none;
+     }
+   } */
 }
 
 .page h3 {
@@ -72,6 +77,7 @@
 }
 
 .page .contact h4 {
+  color: #9e1e62;
   font-size: 30px;
   margin-top: -140px;
   margin-bottom: 10px;
@@ -81,13 +87,12 @@
 @media screen and (max-height: 640px) and (min-width: 700px) {
   .page .contact h4 {
     font-size: 23px;
-    margin-top: -100px;
+    margin-top: -80px;
   }
 }
 
 @media screen and (max-width: 1099px) {
   .page .contact h4 {
-    color: #9e1e62;
     margin-top: -80px;
     font-size: 18px;
   }
@@ -235,12 +240,6 @@
   }
 }
 
-@media screen and (min-width: 1100px) {
-  .page br {
-    display: none;
-  }
-}
-
 .rolunk {
   width: 70%;
   margin: 0 auto;
@@ -255,4 +254,8 @@
     -webkit-transform: scale(1) !important;
             transform: scale(1) !important;
   }
+}
+
+.kontaktOldal .onlyLg {
+  position: inherit;
 }

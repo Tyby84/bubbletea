@@ -54,7 +54,7 @@
       <img src="/images/homeLg/rsz_felso_bal_foto.png" class="balfelso" width="27%" alt="">
       
      
-      <img class="cetli2" src="/images/section/cetli3.png" width="20%" alt="">
+      <img class="cetli2" src="/images/section/cetli3.png" width="18%" alt="">
       <img src="/images/homeLg/rsz_kozepso_hosszu_foto.png" class="kozephosszu" alt="">
       <img class="cetli3" src="/images/section/Cetli2.png" alt="">
 

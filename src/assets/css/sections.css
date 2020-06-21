@@ -180,12 +180,14 @@
 .onlyLg .cetli4 {
   margin-top: -590px;
   width: 67%;
+  margin-left: 70px;
 }
 
 @media screen and (min-width: 1100px) and (max-width: 1270px) {
   .onlyLg .cetli4 {
     width: 45%;
     margin-bottom: 20px;
+    margin-left: 220px;
   }
 }
 

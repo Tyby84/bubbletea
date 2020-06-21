@@ -1,6 +1,9 @@
 @import 'mixin.scss';
 
 footer {
+    @include tablet {
+        display: none;
+    }
     //height: 81px;
     width: 100vw;
     background-color: rgb(247, 147, 29); 
@@ -22,8 +25,3 @@ footer {
     }
 
 }
-.navbar.navbar--hidden {
-    // box-shadow: none;
-    // transform: translate3d(0, -100%, 0);
-    display: none;
-  }
