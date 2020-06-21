@@ -48,11 +48,11 @@
    </footer>
    <div class="footer">
      <div class="social_icons">
-     <img src="images/PNG/facebook.png" />
+     <a target="_blank" href="https://www.facebook.com/jkoktelbubbletea/"><img src="images/PNG/facebook.png" /></a>
      </div>
      <p>&copy; jkoktelbubbletea | 2020</p>
      <div>
-     <img src="images/PNG/instagram.png" />
+     <a target="_blank" href="https://www.instagram.com/jkoktelbubbletea/"><img src="images/PNG/instagram.png" /></a>
      </div>
    </div>
   </div>

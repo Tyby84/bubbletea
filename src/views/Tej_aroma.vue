@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <h3 id="top">Tejes Aromák</h3>
-    <p>"Az egzotikus gyümölcsöknek köszönhető <br>az egyedi tej tea íz"</p>
+    <p>"Az egzotikus gyümölcsöknek köszönhető <br class="onlySm">az egyedi tej tea íz"</p>
     <div class="aromak">
       <div>
         <img  class="aroma" src="images/tejes/Áfonya TEJ  Aroma-01.png">
