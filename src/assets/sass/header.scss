@@ -35,6 +35,9 @@ header {
     .topsoc {
       position: absolute;
       left: 115px;
+      @media screen and (max-width: 1600px) {
+        left: 40px;
+      }
       @include heightFix {
       left: 35px;
       }

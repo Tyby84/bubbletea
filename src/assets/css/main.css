@@ -151,12 +151,12 @@
 }
 
 .sidenav div a {
-  width: 180px;
+  width: auto;
   text-decoration: none;
   font-size: 19px;
   font-weight: normal;
   color: #313131;
-  padding: 20px;
+  padding: 8px;
 }
 
 @media screen and (max-width: 640px) {

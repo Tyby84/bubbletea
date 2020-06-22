@@ -8,9 +8,15 @@
   html {
     background: url('/images/pageBg.jpg') no-repeat;
     overflow-y:auto;
-    //-webkit-overflow-scrolling: touch; 
+    background-position: 0% 28%;
     overflow-x: hidden;
-  }
+    @include heightFix {
+      background-position: 50% 51%;
+    }
+    @include mobile {
+      background: none;
+    }
+  } 
   body {
     
     font-family: 'Oswald';

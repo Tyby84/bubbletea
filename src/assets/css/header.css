@@ -58,6 +58,12 @@ header .topsoc {
   left: 115px;
 }
 
+@media screen and (max-width: 1600px) {
+  header .topsoc {
+    left: 40px;
+  }
+}
+
 @media screen and (max-height: 640px) and (min-width: 700px) {
   header .topsoc {
     left: 35px;
