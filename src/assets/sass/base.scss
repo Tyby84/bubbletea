@@ -10,7 +10,7 @@
     overflow-y:auto;
     background-position: 0% 28%;
     overflow-x: hidden;
-    @include heightFix {
+    @media screen and (max-width:1260px) and (min-height:641px) {
       background-position: 50% 51%;
     }
     @include mobile {

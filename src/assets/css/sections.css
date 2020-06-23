@@ -80,19 +80,16 @@
 .onlyLg .felsoKozep {
   margin-top: 67px;
   margin-left: 425px;
+  /*  @media screen and (min-width:1280px) and (max-height:800px) {
+        margin-top: -240px;
+        margin-left: 305px;
+       } */
 }
 
 @media screen and (min-width: 1100px) and (max-width: 1270px) {
   .onlyLg .felsoKozep {
     margin-top: 0px;
     margin-left: 300px;
-  }
-}
-
-@media screen and (min-width: 1280px) and (max-height: 800px) {
-  .onlyLg .felsoKozep {
-    margin-top: -240px;
-    margin-left: 305px;
   }
 }
 
