@@ -13,7 +13,7 @@ html {
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 1260px) and (min-height: 641px) {
+@media screen and (max-width: 1260px) {
   html {
     background-position: 50% 51%;
   }

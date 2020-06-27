@@ -37,12 +37,14 @@
     </div> 
     <div class="content">
       <transition name="fade">
+        <keep-alive>
       <router-view></router-view>
+        </keep-alive>
     </transition> 
     </div>
     </div>
    <footer>
-     
+      
      <p>&copy; jkoktelbubbletea | 2020</p>
      
    </footer>
