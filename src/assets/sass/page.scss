@@ -117,70 +117,7 @@
   div {
     position: relative;
   }
-  .circle {
-     display: inline-block;
-     width: 210px;
-     height: 210px;
-     background-color: #fff;
-     border-radius: 50%;
-     position: absolute;
-     top: 57px;
-    left: 64px;
-     z-index: -1;
-     @media screen and (min-width:1100px) and (max-width: 1800px) {
-      position: absolute;
-      width: 165px;
-     height: 165px;
-     top: 25px;
-     left: 20px;
-     }
-     @include tablet {
-      top: 75px;
-      left: 65px;
-      width: 165px;
-      height: 165px;
-      background-color: #fff;
-      border-radius: 50%;
-      z-index: -1;
-     }
-     @include mobile {
-      top: 50px;
-    left: 29px;
-    width: 165px;
-    height: 165px;
-     }
-    }
-    .circle.teakor {
-      width: 290px;
-      height: 290px;
-      top: 100px;
-      left: 55px;
-      @media screen and (max-width: 1800px) and (min-width: 1100px) {
-        width: 200px;
-    height: 200px;
-    top: 60px;
-    left: 4px;
-      }
-      @include heightFix {
-        width: 165px;
-        height: 165px;
-        top: 45px;
-        left: 25px;
-       }
-      @include tablet {
-        top: 80px;
-        left: 50px;
-        width: 200px;
-        height: 200px;
-      }
-      @include mobile {
-        top: 75px;
-        left: 20px;
-        width: 190px;
-        height: 190px;
-       }
-    }
-  }
+}
   
   }
   .rolunk {

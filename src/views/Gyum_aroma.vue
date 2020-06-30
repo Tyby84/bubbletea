@@ -4,76 +4,76 @@
     <p>"Az édes és savanyú ízek változatos választéka, amelyeket ízlésedre formálhatod"</p>
     <div class="aromak">
     <div>
-      <img class="aroma" src="/images/aroma/Áfonya GYÜMÖLCS  Aroma-01.png" alt="Áfonya aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Áfonya GYÜMÖLCS  Aroma.png" alt="Áfonya aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Ananász GYÜMÖLCS  Aroma-01.png" alt="Ananász aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Ananász GYÜMÖLCS  Aroma.png" alt="Ananász aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Barack GYÜMÖLCS  Aroma-01.png" alt="Barack aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Barack GYÜMÖLCS  Aroma.png" alt="Barack aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Görögdinnye GYÜMÖLCS  Aroma-01.png" alt="Görögdinnye aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Görögdinnye GYÜMÖLCS  Aroma.png" alt="Görögdinnye aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Gránátalma GYÜMÖLCS  Aroma-01.png" alt="Gránátalma aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Gránátalma GYÜMÖLCS  Aroma.png" alt="Gránátalma aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Guava GYÜMÖLCS  Aroma-01.png" alt="Guava aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Guava GYÜMÖLCS  Aroma.png" alt="Guava aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Kiwi GYÜMÖLCS  Aroma-01.png" alt="Kiwi aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Kiwi GYÜMÖLCS  Aroma.png" alt="Kiwi aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Licsi GYÜMÖLCS  Aroma-01.png" alt="Licsi aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Licsi GYÜMÖLCS  Aroma.png" alt="Licsi aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Mangó GYÜMÖLCS  Aroma-01.png" alt="Mangó aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Mangó GYÜMÖLCS  Aroma.png" alt="Mangó aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Maracuja GYÜMÖLCS  Aroma-01.png" alt="Maracuja aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Maracuja GYÜMÖLCS  Aroma.png" alt="Maracuja aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Meggy GYÜMÖLCS  Aroma-01.png" alt="Meggy aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Meggy GYÜMÖLCS  Aroma.png" alt="Meggy aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Mini mandarin GYÜMÖLCS  Aroma-01.png" alt="Mini mandarin aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Mini mandarin GYÜMÖLCS  Aroma.png" alt="Mini mandarin aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Narancs GYÜMÖLCS  Aroma-01.png" alt="Narancs aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Narancs GYÜMÖLCS  Aroma.png" alt="Narancs aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Sárkány Gyümölcs GYÜMÖLCS  Aroma-01.png" alt="Sárkány Gyümölcs aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Sárkány Gyümölcs GYÜMÖLCS  Aroma.png" alt="Sárkány Gyümölcs aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Szamóca GYÜMÖLCS  Aroma-01.png" alt="Szamóca aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Szamóca GYÜMÖLCS  Aroma.png" alt="Szamóca aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Szilva GYÜMÖLCS  Aroma-01.png" alt="Szilva aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Szilva GYÜMÖLCS  Aroma.png" alt="Szilva aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Szõlõ GYÜMÖLCS  Aroma-01.png" alt="szőlő aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Szõlõ GYÜMÖLCS  Aroma.png" alt="szőlő aroma">
+      
     </div>
     <div>
-      <img class="aroma" src="/images/aroma/Zöld alma GYÜMÖLCS  Aroma-01.png" alt="Zöld alma aroma">
-      <span class="circle"></span>
+      <img class="aroma" src="/images/aroma/Zöld alma GYÜMÖLCS  Aroma.png" alt="Zöld alma aroma">
+      
     </div>
     </div>
     <a href="#top" class="totop" ><i class="fas fa-chevron-up"></i></a>
