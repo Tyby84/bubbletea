@@ -40,12 +40,6 @@
   margin-bottom: 15px;
 }
 
-.navigation {
-  /* @media screen and(max-width: 1366px) {
-        display: none;
-    } */
-}
-
 @media screen and (min-width: 1100px) {
   .navigation {
     -webkit-box-orient: horizontal;
@@ -54,7 +48,7 @@
             flex-direction: row;
     margin: 0;
     width: 100%;
-    padding-left: 20vw;
+    padding-left: 22vw;
   }
 }
 

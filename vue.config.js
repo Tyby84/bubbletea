@@ -4,3 +4,6 @@ module.exports = {
     outputDir: path.resolve(__dirname, "docs"),
     publicPath: '/'
   }
+  chainWebpack: config => {
+    config.plugins.delete('prefetch');
+  }

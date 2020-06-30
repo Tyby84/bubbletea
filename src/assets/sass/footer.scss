@@ -4,24 +4,11 @@ footer {
     @include tablet {
         display: none;
     }
-    //height: 81px;
     width: 100vw;
     background-color: rgb(247, 147, 29); 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 5px;
-    //padding-bottom: 1px;
    
-    p {
-        //padding-top: 10px;
-    }
-    @include mobile {
-        //max-height: 55px;
-        //width: max-content;
-    }
-    @include heightFix {
-        //height: 55px;
-    }
-
 }

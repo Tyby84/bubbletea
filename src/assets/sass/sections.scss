@@ -8,9 +8,7 @@
         top: 0;
         left: 0;
     }
-    .tea {
-        
-    }
+    
 }
 
 .lime {
@@ -86,44 +84,48 @@
         margin-top: -170px;
         }
         @media screen and (min-width:1280px) and (max-height:800px) {
-        margin-top: -190px;
+        margin-top: -210px;
         }
     }
     .balfelso {
         position: absolute;
-        top: 25px;
+        top: -25px;
         left: 0;
+        @media screen and (min-width:1300px) and (max-width:1400px) {
+            top: 5px;
+        }
     }
     .cetli {
     position: absolute;
-    top: 0;
+    top: -50px;
     left: 0;
-    width: 50%;
+    width: 48%;
     }
     .cetli2 {
         position: absolute;
         top: 855px;
         left: 0;
-        @media screen and (min-width:1100px) and (max-width:1270px) {
-        top: 470px;
+        @media screen and (min-width:1100px) and (max-width:1300px) {
+        top: 520px;
         }
-        @media screen and (min-width:1280px) and (max-height:800px) {
-        top: 615px;
+        @media screen and (min-width:1301px) and (max-width:1800px) {
+        top: 565px;
         }
     }
     .cetli3 {
         position: absolute;
-        top: 1280px;
+        top: 1170px;
         left: 295px;
-        @media screen and (min-width:1100px) and (max-width:1270px) {
-            top: 727px;
-            left: 200px;
+        
+        @media screen and (min-width:1100px) and (max-width:1300px) {
             width: 20%;
+            top: 790px;
+            left: 215px;
         }
-        @media screen and (min-width:1280px) and (max-height:800px) {
-        width: 20%;
-        top: 940px;
-        left: 210px;
+        @media screen and (min-width:1299px) and (max-width:1800px) {
+            top: 850px;
+            left: 230px;
+            width: 20%;
         }
     }
     .alsoPic {

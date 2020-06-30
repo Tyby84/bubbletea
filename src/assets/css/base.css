@@ -9,8 +9,14 @@
 html {
   background: url("/images/pageBg.jpg") no-repeat;
   overflow-y: auto;
-  background-position: 0% 28%;
+  background-position: 0% 29%;
   overflow-x: hidden;
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1300px) {
+  html {
+    background-position: 0% 47%;
+  }
 }
 
 @media screen and (max-width: 1260px) {

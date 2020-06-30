@@ -8,8 +8,11 @@
   html {
     background: url('/images/pageBg.jpg') no-repeat;
     overflow-y:auto;
-    background-position: 0% 28%;
+    background-position: 0% 29%;
     overflow-x: hidden;
+    @media screen and(min-width:1100px) and (max-width:1300px) {
+      background-position: 0% 47%;
+    }
     @media screen and (max-width:1260px)  {
       background-position: 50% 51%;
     }
@@ -67,15 +70,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    img {
-        //margin-right: 50px;
-    }
-    .social_icons {
-        //padding-bottom: 10px;
-    }
-    p {
-        //padding-top: 10px;
-    }
+    
     @include mobile {
         height: 50px;
     }

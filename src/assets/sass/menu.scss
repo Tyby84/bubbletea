@@ -30,14 +30,12 @@
         flex-direction: row;
         margin: 0;
         width: 100%;
-        padding-left: 20vw;
+        padding-left: 22vw;
     }
     @include heightFix {
         margin-top: 5px;
     }
-    /* @media screen and(max-width: 1366px) {
-        display: none;
-    } */
+    
      @include tablet {
         display: none;
     }
