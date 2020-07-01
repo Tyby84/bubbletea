@@ -95,12 +95,12 @@
     }
   .aroma {
        width: 400px;
-       margin: 25px;
+       margin: 35px;
        display: inline-block;
        z-index: 2;
       @media screen and (min-width:1100px) and (max-width: 1800px) {
         transform: scale(1.2);
-        width: 245px;
+        width: 280px;
         margin: 25px;
        }
     @include tablet {
@@ -127,13 +127,7 @@
       min-width: 220px;
     }
   }
-  .teak {
-    .aroma {
-      @include heightFix {
-      transform: scale(1) !important;
-      }
-    }
-  }
+  
   .kontaktOldal {
     .onlyLg {
       position: inherit;

@@ -141,7 +141,7 @@
 
 .page .aromak .aroma {
   width: 400px;
-  margin: 25px;
+  margin: 35px;
   display: inline-block;
   z-index: 2;
 }
@@ -150,7 +150,7 @@
   .page .aromak .aroma {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
-    width: 245px;
+    width: 280px;
     margin: 25px;
   }
 }
@@ -181,13 +181,6 @@
 
 .rolunk h3 {
   min-width: 220px;
-}
-
-@media screen and (max-height: 640px) and (min-width: 700px) {
-  .teak .aroma {
-    -webkit-transform: scale(1) !important;
-            transform: scale(1) !important;
-  }
 }
 
 .kontaktOldal .onlyLg {
