@@ -65,8 +65,11 @@
     position: relative;
     .felsojobb {
         position: absolute;
-        top: 0;
+        top: 0px;
         right: 0;
+        @media screen and (min-width:1100px) and (max-width:1800px) {
+            top: -30px;
+        }
     }
     .felsoKozep {
         margin-top: 67px;

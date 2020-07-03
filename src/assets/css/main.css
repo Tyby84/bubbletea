@@ -89,6 +89,12 @@
   }
 }
 
+@media screen and (min-width: 510px) and (max-width: 840px) {
+  .sidenav {
+    height: 55%;
+  }
+}
+
 @media screen and (min-width: 700px) {
   .sidenav {
     background-size: 115% 100%;
