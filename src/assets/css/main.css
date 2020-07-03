@@ -95,7 +95,7 @@
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (max-width: 1800px) {
   .sidenav {
     background-size: 115% 100%;
   }
@@ -166,8 +166,8 @@
 .sidenav div a {
   width: auto;
   text-decoration: none;
-  font-size: 19px;
-  font-weight: normal;
+  font-size: 22px;
+  font-weight: bold;
   color: #313131;
   padding: 8px;
 }

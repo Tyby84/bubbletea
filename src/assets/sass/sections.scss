@@ -92,12 +92,12 @@
     }
     .balfelso {
         position: absolute;
-        top: 10px;
+        top: -10px;
         left: 0;
-        @media screen and (min-width:1101px) and (max-width:1800px) {
-            top: -60px !important;
+        @media screen and (min-width:1101px) and (max-width:1400px) {
+            top: -60px;
         }
-        @media screen and (min-width:1300px) and (max-width:1400px) {
+        @media screen and (min-width:1401px) and (max-width:1900px) {
             top: 5px;
         }
     }

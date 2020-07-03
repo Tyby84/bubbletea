@@ -55,7 +55,7 @@
     @media screen and (min-width:510px) and (max-width:840px) {
       height: 55%;
     }
-    @media screen and (min-width:700px) { 
+    @media screen and (min-width:700px) and (max-width:1800px){ 
       background-size: 115% 100%;
     }
     div {
@@ -99,8 +99,8 @@
       a {
         width: auto;
         text-decoration: none;
-        font-size: 19px;
-        font-weight: normal;
+        font-size: 22px;
+        font-weight: bold;
         color: rgb(49, 49, 49);
         padding: 8px;
         @include mobile {
