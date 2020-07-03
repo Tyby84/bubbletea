@@ -109,8 +109,14 @@
 
 .onlyLg .balfelso {
   position: absolute;
-  top: -25px;
+  top: 10px;
   left: 0;
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1800px) {
+  .onlyLg .balfelso {
+    top: -60px !important;
+  }
 }
 
 @media screen and (min-width: 1300px) and (max-width: 1400px) {

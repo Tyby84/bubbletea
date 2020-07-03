@@ -20,7 +20,7 @@ header {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 840px) {
   header {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -46,7 +46,7 @@ header img {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 840px) {
   header img {
     -webkit-clip-path: polygon(40% 0%, 100% 0, 100% 100%, 40% 100%);
             clip-path: polygon(40% 0%, 100% 0, 100% 100%, 40% 100%);

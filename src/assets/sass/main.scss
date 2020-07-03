@@ -30,13 +30,9 @@
     flex-direction: column;
     width: 20%;
     align-items: center;
-    background: url('/images/welcome.JPG') no-repeat;
-    background-size: cover;
-    background-position: 33% 50%;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: overlay;
+    background: url('/images/cetlimenu.png') no-repeat;
+    background-size: 115% 90%;
     height: calc(100vh - 180px);
-    border: 1px solid #fff;
     @include tablet {
       background-size: cover;
       padding: 20px;
@@ -57,14 +53,14 @@
       justify-content: center;
     }
     @media screen and (min-width:700px) { 
-      //height: calc(100vh - 133px);
-      background-position: 55% 50%;
-      width: 22%;
+      background-size: 115% 100%;
     }
     div {
       &:first-of-type {
-        margin-top: 20px;
-         
+        margin-top: 150px;
+        @media screen and (min-width:1100px) and (max-width:1600px) {
+        margin-top: 85px;
+        }
         @include mobile {
           width: 130px;
           margin-top: 0;
@@ -77,13 +73,17 @@
       justify-content: center;
       text-align: center;
       background-color: rgba(255, 255, 255, 0.5);
-      margin-bottom: 15px;
+      margin-bottom: 60px;
+      margin-left: 20px;
       transition: background .5s ease-in-out;
-      margin: auto;
+      //margin: auto;
       &:hover, &:active {
         background-color: rgba(255, 255, 255, 0.85);
       }
-      
+      @media screen and (min-width:1100px) and (max-width:1600px) {
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
       @include tablet {
         margin-right: 10px;
         margin-left: 10px;

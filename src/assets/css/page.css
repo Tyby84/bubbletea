@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 840px) {
   .page p {
     font-size: 19px;
   }
@@ -161,7 +161,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 840px) {
   .page .aromak .aroma {
     margin: 50px;
     width: 100%;
