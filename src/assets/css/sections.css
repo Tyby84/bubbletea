@@ -36,6 +36,12 @@
   width: 35%;
 }
 
+@media screen and (min-width: 650px) and (max-width: 800px) {
+  .korte .cetli {
+    top: -135px;
+  }
+}
+
 .korte .osszetett {
   margin-top: -80px;
   margin-left: -30px;
@@ -50,6 +56,13 @@
   position: absolute;
   top: -75px;
   left: 5px;
+}
+
+@media screen and (min-width: 650px) and (max-width: 800px) {
+  .shop .cetli {
+    top: -160px;
+    left: 35px;
+  }
 }
 
 .shop .utolsokep {

@@ -107,9 +107,24 @@
   }
 }
 
+@media screen and (min-width: 650px) and (max-width: 800px) {
+  .page .contact h4 {
+    margin-top: -100px;
+    font-size: 24px;
+  }
+}
+
 @media screen and (min-width: 1100px) {
   .page .contactImg {
     width: 55% !important;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1100px) {
+  .page .contactImg {
+    width: 75%;
     margin: 0 auto;
     display: block;
   }
@@ -181,6 +196,12 @@
 
 .rolunk h3 {
   min-width: 220px;
+}
+
+@media screen and (min-width: 650px) and (max-width: 800px) {
+  .rolunk .totop {
+    display: none;
+  }
 }
 
 .kontaktOldal .onlyLg {

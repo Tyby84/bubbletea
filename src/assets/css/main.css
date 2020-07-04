@@ -92,10 +92,11 @@
 @media screen and (min-width: 510px) and (max-width: 840px) {
   .sidenav {
     height: 55%;
+    background-size: cover;
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1800px) {
+@media screen and (min-width: 900px) and (max-width: 1800px) {
   .sidenav {
     background-size: 115% 100%;
   }
@@ -138,6 +139,19 @@
   }
 }
 
+@media screen and (min-width: 650px) and (max-width: 800px) {
+  .sidenav div:first-of-type {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1100px) {
+  .sidenav div:first-of-type {
+    margin-top: 70px;
+  }
+}
+
 .sidenav div:hover, .sidenav div:active {
   background-color: rgba(255, 255, 255, 0.85);
 }
@@ -160,6 +174,12 @@
   .sidenav div {
     min-height: 45px;
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1100px) {
+  .sidenav div {
+    margin-left: 35px;
   }
 }
 
@@ -195,6 +215,21 @@
     font-weight: bold;
     font-size: 18px;
     padding: 8px;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 800px) {
+  .sidenav div a {
+    font-weight: bold;
+    width: 200px;
+    padding: 10px 5px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1100px) {
+  .sidenav div a {
+    font-size: 17px;
   }
 }
 

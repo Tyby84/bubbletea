@@ -32,6 +32,9 @@
         top: -45px;
         left: 10px;
         width: 35%;
+        @media screen and (min-width:650px) and (max-width:800px) {
+            top: -135px;
+        }
     }
    .osszetett {
     margin-top: -80px;
@@ -45,6 +48,10 @@
         position: absolute;
         top: -75px;
         left: 5px;
+        @media screen and (min-width:650px) and (max-width:800px) {
+            top: -160px;
+            left: 35px;
+        }
     }
    
     .utolsokep {
@@ -59,6 +66,7 @@
     color: #fff;
     padding: 0 14px 3px 10px;
     clip-path: polygon(25% 10%, 100% 10%, 75% 90%, 0 90%);
+    
 
 }
 .onlyLg {
